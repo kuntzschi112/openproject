@@ -32,7 +32,7 @@ source "https://rubygems.org"
 # then we can use the new bundler syntax `ruby file: '.ruby-version'`.
 # https://github.com/heroku/heroku-buildpack-ruby/issues/1408#issuecomment-1841596215
 
-ruby "3.3.4"
+#ruby "3.3.4"
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
