@@ -33,6 +33,9 @@ source "https://rubygems.org"
 # https://github.com/heroku/heroku-buildpack-ruby/issues/1408#issuecomment-1841596215
 
 ruby "3.3.4"
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 
 gem "actionpack-xml_parser", "~> 2.0.0"
 gem "activemodel-serializers-xml", "~> 1.0.1"
