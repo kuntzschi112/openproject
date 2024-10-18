@@ -1,0 +1,2077 @@
+{
+  "tr": {
+    "date": {
+      "abbr_day_names": [
+        "Pzr",
+        "Pzt",
+        "Sal",
+        "Çar",
+        "Per",
+        "Cum",
+        "Cmt"
+      ],
+      "abbr_month_names": [
+        null,
+        "Oca",
+        "Şub",
+        "Mar",
+        "Nis",
+        "May",
+        "Haz",
+        "Tem",
+        "Ağu",
+        "Eyl",
+        "Eki",
+        "Kas",
+        "Ara"
+      ],
+      "abbr_week": "Hatfa",
+      "day_names": [
+        "Pazar",
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma",
+        "Cumartesi"
+      ],
+      "formats": {
+        "default": "%m/%d/%Y",
+        "long": "%B %d, %Y",
+        "short": "%b %d"
+      },
+      "month_names": [
+        null,
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "May",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim",
+        "Kasım",
+        "Aralık"
+      ],
+      "order": [
+        ":yıl",
+        "ay",
+        ":gün"
+      ]
+    },
+    "js": {
+      "admin": {
+        "enterprise": {
+          "text_expired": "süresi dolmuş",
+          "text_reprieve_days_left": "Ek sürenin sonuna %{days} gün kaldı",
+          "trial": {
+            "confirmation": "E-posta adresi doğrulama",
+            "confirmation_info": "%{email} adresine %{date} tarihinde bir e-posta gönderdik. Lütfen gelen kutunuzu kontrol edin ve 14 günlük denemenize başlamak için verilen onay bağlantısını tıklayın.\n",
+            "email_not_received": "E-posta almadınız mı? Sağdaki bağlantıyı kullanarak e-postayı yeniden gönderebilirsiniz.",
+            "form": {
+              "domain_mismatch": "Geçerli istek ana bilgisayar adı, yapılandırılan ana bilgisayar adıyla eşleşmiyor. Lütfen sistem ayarlarınızı tekrar kontrol edin.",
+              "general_consent": "Katılıyorum  <a target=\"_blank\" href=\"%{link_terms}\">terms of service</a> and the <a target=\"_blank\" href=\"%{link_privacy}\">privacy policy</a>.\n",
+              "invalid_email": "Geçersiz e-posta adresi",
+              "label_company": "Şirket",
+              "label_domain": "Alan adı",
+              "label_expires_at": "Süre sonu: ",
+              "label_first_name": "İsim",
+              "label_last_name": "Soyisim",
+              "label_maximum_users": "En çok aktif kullanıcı",
+              "label_starts_at": "Başlangıç tarihi:",
+              "label_subscriber": "Abone",
+              "receive_newsletter": "OpenProject almak istiyorum  <a target=\"_blank\" href=\"%{link}\">Bülten</a>.",
+              "taken_domain": "Alan adı başına yalnızca bir etkin deneme olabilir.",
+              "taken_email": "Her kullanıcı yalnızca bir deneme oluşturabilir."
+            },
+            "next_steps": "Sonraki adımlar",
+            "quick_overview": "OpenProject Enterprise sürümü ile proje yönetimi ve ekip işbirliğine hızlı bir genel bakış elde edin.",
+            "resend_link": "Tekrar gönder",
+            "resend_success": "E-posta yeniden gönderildi. Lütfen e-postalarınızı kontrol edin ve verilen onay bağlantısını tıklayın.",
+            "resend_warning": "E-posta tekrar gönderilemedi.",
+            "session_timeout": "Oturumunuz zaman aşımına uğradı. Lütfen sayfayı yeniden yüklemeyi veya e-postayı tekrar göndermeyi deneyin.",
+            "status_confirmed": "onaylanmış",
+            "status_label": "Durum:",
+            "status_waiting": "e-posta gönderildi - onay bekleniyor",
+            "test_ee": "Enterprise Edition ürününü 14 gün ücretsiz test edin",
+            "try_another_email": "Veya başka bir e-posta adresiyle deneyin."
+          },
+          "upsale": {
+            "become_hero": "Kahraman olun!",
+            "benefits": {
+              "description": "Enterprise şirket içi sürümünün avantajları nelerdir?",
+              "high_security": "Güvenlik özellikleri",
+              "high_security_text": "Çoklu oturum açma (SAML, OpenID Connect, CAS), LDAP grupları.",
+              "installation": "Kurulum desteği",
+              "installation_text": "Deneyimli yazılım mühendisleri, kendi altyapınızdaki eksiksiz kurulum ve kurulum sürecinde size rehberlik eder.",
+              "premium_features": "Enterprise eklentiler",
+              "premium_features_text": "Çevik tahtalar, özel tema ve logo, grafikler, özel eylemlerle akıllı iş akışları, iş paketi ekleri için tam metin araması ve çoklu seçim özel alanları.",
+              "professional_support": "Profesyonel destek",
+              "professional_support_text": "İş açısından kritik ortamlarda OpenProject çalıştırma konusunda uzman bilgiye sahip kıdemli destek mühendislerinden güvenilir, yüksek dokunuşlu destek alın."
+            },
+            "button_book_now": "Şimdi rezervasyon yaptırın",
+            "button_contact_us": "Demo için bizimle iletişime geçin",
+            "button_start_trial": "Deneme sürümüne başla",
+            "button_upgrade": "Şimdi Yükselt",
+            "confidence": "Açık Kaynak ve açık fikirli olmak üzere, test edilmiş ve desteklenen bir kurumsal sınıf proje yönetimi yazılımının güvenini sunuyoruz.\n",
+            "enterprise_info_html": "%{feature_title} is an Enterprise <span class='spot-icon spot-icon_inline spot-icon_enterprise-addons'></span> add-on.",
+            "link_quote": "Fiyat teklifi alın",
+            "more_info": "Daha fazla bilgi",
+            "text": "OpenProject Enterprise sürümü, Community sürümünün üzerine kuruludur. OpenProject ile iş açısından kritik projeleri yöneten 10'dan fazla kullanıcısı olan kuruluşlara yönelik Kurumsal eklentiler ve profesyonel destek içerir.\n",
+            "unlimited": "Sınırsız",
+            "upgrade_info": "Etkinleştirmek ve ekibinizde kullanmaya başlamak için lütfen ücretli bir plana yükseltin.",
+            "you_contribute": "Geliştiricilerin de faturalarını ödemeleri gerekiyor. Enterprise sürümüne yükselterek, bu açık kaynak topluluk çabasını destekleyecek ve geliştirilmesine, sürdürülmesine ve sürekli iyileştirilmesine katkıda bulunacaksınız."
+          }
+        },
+        "type_form": {
+          "add_group": "Özellik grubu ekle",
+          "add_table": "Bağlantılı iş paketlerinin tablosunu ekle",
+          "custom_field": "Özel alan",
+          "drag_to_activate": "Alanları buraya sürükleyerek aktifleştirebilirsiniz",
+          "edit_query": "Sorguyu düzenle",
+          "inactive": "Etkin değil",
+          "new_group": "Yeni grup",
+          "reset_to_defaults": "Varsayılanlara geri yükle"
+        },
+        "work_packages_settings": {
+          "warning_progress_calculation_mode_change_from_field_to_status_html": "Changing progress calculation mode from work-based to status-based will result in all existing <i>% Complete</i> values to be lost and replaced with values associated with each status. Existing values for <i>Remaining work</i> may also be recalculated to reflect this change. This action is not reversible.",
+          "warning_progress_calculation_mode_change_from_status_to_field_html": "Changing progress calculation mode from status-based to work-based will make the <i>% Complete</i> field freely editable. If you optionally enter values for <i>Work</i> or <i>Remaining work</i>, they will also be linked to <i>% Complete</i>. Changing <i>Remaining work</i> can then update <i>% Complete</i>."
+        },
+        "working_days": {
+          "add_non_working_day": "Çalışılmayan günler",
+          "already_added_error": "Bu tarih için çalışılmayan bir gün zaten var. Her benzersiz tarih için yalnızca bir çalışılmayan gün oluşturulabilir.",
+          "calendar": {
+            "empty_state_description": "Bu yıl için belirli bir çalışma dışı gün tanımlanmamıştır. Bir tarih eklemek için aşağıdaki \"Çalışma dışı gün ekle\"ye tıklayın.",
+            "empty_state_header": "Çalışılmayan günler",
+            "new_date": "(yeni)"
+          },
+          "change_button": "Kaydet ve yeniden planla",
+          "change_description": "Haftanın hangi günlerinin iş günü olarak kabul edileceğini değiştirmek, bu durumda tüm projelerdeki tüm iş paketlerinin başlangıç ve bitiş günlerini etkileyebilir.",
+          "change_title": "İş günlerini değiştir",
+          "removed_title": "Aşağıdaki günleri çalışılmayan günler listesinden çıkaracaksınız:",
+          "warning": "Değişikliklerin geçerlilik kazanması biraz zaman alabilir. İlgili tüm iş paketleri güncellendiğinde bilgilendirileceksiniz. Devam etmek istediğine emin misin?\n"
+        }
+      },
+      "ajax": {
+        "hide": "Saklamak",
+        "loading": "Yükleniyor…",
+        "updating": "Güncelleniyor..."
+      },
+      "attachments": {
+        "delete": "Eki sil",
+        "delete_confirmation": "Bu dosyayı silmek istiyor musunuz? Bu işlem geri alınamaz.\n",
+        "draggable_hint": "Editör alanında, satır içi görüntüye veya referans ekine sürükleyin. Sürüklemeye devam ederken kapalı editör alanları açılacaktır.\n",
+        "quarantined_hint": "The file is quarantined, as a virus was found. It is not available for download."
+      },
+      "autocomplete_ng_select": {
+        "add_tag": "Add item",
+        "clear_all": "Clear all",
+        "loading": "Yükleniyor...",
+        "not_found": "Hiçbir öge bulunamadı",
+        "type_to_search": "Aramak için metni yazın"
+      },
+      "autocomplete_select": {
+        "active": "Aktif %{label} %{name}",
+        "placeholder": {
+          "multi": "\"%{name}\" ekleyin",
+          "single": "\"%{name}\" seçeneğini seçin"
+        },
+        "remove": "%{name} öğesini kaldır"
+      },
+      "autocompleter": {
+        "notFoundText": "Hiçbir öge bulunamadı",
+        "placeholder": "Aramak için metni yazın",
+        "project": {
+          "placeholder": "Proje seçin"
+        }
+      },
+      "avatars": {
+        "empty_file_error": "Lütfen geçerli bir resim yükle (jpg, png, gif)",
+        "error_image_too_large": "Resim çok büyük.",
+        "label_choose_avatar": "Dosyadan Avatarı seçin",
+        "text_upload_instructions": "128 x 128 piksellik kendi özel avatarınızı yükleyin. Büyük dosyalar yeniden boyutlandırılacak ve eşleşecek şekilde kırpılacaktır.\nBir resmi seçtikten sonra, yüklemeden önce avatarınızın bir önizlemesi gösterilir.\n",
+        "uploading_avatar": "Avatarını yüklüyorum.",
+        "wrong_file_format": "İzin verilen biçimler jpg, png, gif"
+      },
+      "backup": {
+        "attachments_disabled": "Ekler, izin verilen maksimum toplam boyutu aştıkları için dahil edilmeyebilir. Bunu yapılandırma yoluyla değiştirebilirsiniz (sunucunun yeniden başlatılması gerekir).",
+        "download_backup": "Yedeği indir",
+        "include_attachments": "Ekleri dahil et",
+        "info": "Burada bir yedeklemeyi tetikleyebilirsiniz. İşlem, sahip olduğunuz veri miktarına (özellikle ekler) bağlı olarak biraz zaman alabilir. Hazır olduğunda bir e-posta alacaksınız.\n",
+        "last_backup": "Son yedekleme",
+        "last_backup_from": "Adlı kişiden son yedekleme",
+        "note": "Yeni bir yedekleme, herhangi bir öncekini geçersiz kılacaktır. Günde yalnızca sınırlı sayıda yedekleme talep edilebilir.\n",
+        "options": "Ayarlar",
+        "request_backup": "Yedek talep et",
+        "title": "OpenProject Yedekleme"
+      },
+      "baseline": {
+        "apply": "Uygula",
+        "baseline_comparison": "Baseline comparison",
+        "clear": "Temizle",
+        "drop_down": {
+          "a_specific_date": "a specific date",
+          "between_two_specific_dates": "between two specific dates",
+          "last_month": "geçen ay",
+          "last_week": "geçen hafta",
+          "last_working_day": "last working day",
+          "none": "-",
+          "yesterday": "dün"
+        },
+        "enterprise_header_description": "Highlight changes made to this list since any point in the past with Enterprise edition.",
+        "from": "Başlangıç",
+        "header_description": "Highlight changes made to this list since any point in the past.",
+        "help_description": "Reference time zone for the baseline.",
+        "icon_tooltip": {
+          "added": "Added to view within the comparison time period",
+          "changed": "Maintained with modifications",
+          "removed": "Removed from view within the comparison time period"
+        },
+        "legends": {
+          "changes_between": "Changes between",
+          "changes_since": "Changes since",
+          "in_your_timezone": "In your local timezone:",
+          "maintained_with_changes": "Maintained with changes",
+          "no_longer_meets_filter_criteria": "No longer meets filter criteria",
+          "now_meets_filter_criteria": "Now meets filter criteria"
+        },
+        "show_changes_since": "Show changes since",
+        "time": "Saat",
+        "time_description": "In your local time: %{datetime}",
+        "to": "Bitiş",
+        "toggle_title": "Baseline"
+      },
+      "bcf": {
+        "add_viewpoint": "Bakış açısı ekle",
+        "delete_viewpoint": "Bakış açısını sil",
+        "export": "Dışarı aktar",
+        "export_bcf_xml_file": "BCF XML dosyasını dışa aktar (BCF sürüm 2.1)",
+        "import": "İçeri Aktar",
+        "import_bcf_xml_file": "BCF XML dosyasını içe aktarın (BCF sürüm 2.1)",
+        "label_bcf": "BCF",
+        "management": "BCF yönetimi",
+        "refresh": "Yenile",
+        "refresh_work_package": "İş paketini yenile",
+        "show_viewpoint": "Bakış açısını göster",
+        "viewpoint": "bakış açısı"
+      },
+      "boards": {
+        "add_card": "Kart ekle",
+        "add_list": "Listeyi panele ekle",
+        "add_list_modal": {
+          "labels": {
+            "assignee": "Yeni bir vekil listesi olarak eklenecek kullanıcıyı seçin",
+            "status": "Yeni bir liste olarak eklemek için durumu seçin",
+            "subproject": "Yeni bir liste olarak eklenecek alt projeyi seçin",
+            "subtasks": "Yeni liste olarak eklenecek iş paketini seçin",
+            "version": "Yeni bir liste olarak eklemek için sürümü seçin"
+          },
+          "warning": {
+            "add_members": "Kullanıcıları tekrar seçmek için <a href=\"%{link}\"> bu projeye yeni bir üye ekleyin </a>.",
+            "assignee": "Filtre değerinizle eşleşen herhangi bir üye yok. <br>",
+            "no_member": "Bu projede şu anda eklenebilecek herhangi bir üye bulunmamaktadır. <br>",
+            "status": "Şu anda kullanılabilir durum yok. <br>\nYa yok ya da hepsi zaten tahtaya eklenmiş.\n"
+          }
+        },
+        "board_type": {
+          "action": "Eylem kurulu",
+          "action_by_attribute": "Eylem kurulu (%{attribute})",
+          "action_text": "%{attribute} özniteliğinde filtrelenmiş listelere sahip bir pano. İş paketlerinin diğer listelere taşınması niteliklerini güncelleyecektir.\n",
+          "action_text_assignee": "Atanan kullanıcılara göre otomatik sütunlara sahip pano. İş paketlerini göndermek için ideal.\n",
+          "action_text_status": "Yapılacak, Devam Ediyor, Bitti gibi durum için sütunlara sahip temel kanban stili pano.\n",
+          "action_text_subprojects": "Alt projeler için otomatik sütunlara sahip pano. İş paketlerini başka listelere sürüklemek, (alt) projeyi buna göre günceller.\n",
+          "action_text_subtasks": "Alt elemanlar için otomatik sütunlu pano. İş paketlerini başka listelere sürüklemek, üst öğeyi buna göre günceller.\n",
+          "action_text_version": "Sürüm özelliğine göre otomatik sütunlara sahip pano. Ürün geliştirmeyi planlamak için idealdir.\n",
+          "action_type": {
+            "assignee": "vekil",
+            "status": "durum",
+            "subproject": "Alt proje",
+            "subtasks": "ebeveyn-çocuk",
+            "version": "Sürüm"
+          },
+          "board_type_title": {
+            "assignee": "Atanan",
+            "basic": "Temel",
+            "status": "Durum",
+            "subproject": "Alt proje",
+            "subtasks": "Ana-Yavru",
+            "version": "Sürüm"
+          },
+          "free": "temel",
+          "free_text": "Bir boş tahta ile sıfırdan başlayın. Bu panoya manuel olarak kartlar ve sütunlar ekleyin.\n",
+          "select_attribute": "Eylem özelliği",
+          "select_board_type": "Lütfen ihtiyacınız olan kart tipini seçin.",
+          "text": "Yazı tahtası tipi"
+        },
+        "click_to_remove_list": "Bu listeyi kaldırmak için tıklayın",
+        "configuration_modal": {
+          "display_settings": {
+            "card_mode": "Kart olarak göster",
+            "table_mode": "Tablo olarak görüntüle"
+          },
+          "title": "Bu kartı yapılandır"
+        },
+        "create_new": "Yeni pano oluştur",
+        "error_attribute_not_writable": "Çalışma paketi taşınamıyor, %{attribute} yazılabilir değil.",
+        "error_cannot_move_into_self": "Bir iş paketini kendi sütununa taşıyamazsınız.",
+        "error_loading_the_list": "Liste yüklenirken hata oluştu: %{error_message}",
+        "error_permission_missing": "Genel sorgu oluşturma izni eksik",
+        "label_board_type": "Yazı tahtası tipi",
+        "label_unnamed_board": "Adsız tahta",
+        "label_unnamed_list": "Adsız liste",
+        "lists": {
+          "delete": "Listeyi silin"
+        },
+        "new_board": "Yeni yazı tahtası",
+        "text_hidden_list_warning": "Gerekli izniniz olmadığından tüm listeler gösterilemiyor. Daha çok bilgi için yöneticinizle görüşün.",
+        "upsale": {
+          "teaser_text": "Boards ile iş akışlarınızı otomatikleştirmek ister misiniz? Gelişmiş kartlar bir Enterprise eklentidir. Lütfen ücretli bir plana yükseltin.",
+          "upgrade": "Şimdi Yükselt"
+        },
+        "version": {
+          "close_version": "Sürümü kapat",
+          "closed": "Kapalı",
+          "edit_version": "Sürümü düzenle",
+          "is_closed": "Sürüm kapalı. Bu sürüme hiçbir ürün eklenemez.",
+          "is_locked": "Sürüm kilitli. Bu sürüme hiçbir ürün eklenemez.",
+          "lock_version": "Kilitli versiyon",
+          "locked": "Kilitlendi",
+          "open_version": "Sürümü aç",
+          "show_version": "Versiyonu göster",
+          "unlock_version": "Sürümün kilidini aç"
+        }
+      },
+      "button_add": "Ekle",
+      "button_add_watcher": "Takipçi ekle",
+      "button_advanced_filter": "Gelişmiş filtre",
+      "button_back": "Geri",
+      "button_back_to_list_view": "Liste görünümüne geri dön",
+      "button_cancel": "İptal etmek",
+      "button_change_project": "Move to another project",
+      "button_check_all": "Hepsini kontrol et",
+      "button_close": "Kapat",
+      "button_close_details": "Ayrıntılar görünümünü kapat",
+      "button_collapse_all": "Tümünü daralt",
+      "button_configure-form": "Formu yapılandır",
+      "button_confirm": "Onaylamak",
+      "button_continue": "Devam et",
+      "button_copy": "Kopyalamak",
+      "button_copy_link_to_clipboard": "Copy link to clipboard",
+      "button_copy_to_clipboard": "Panoya kopyala",
+      "button_copy_to_other_project": "Duplicate in another project",
+      "button_create": "Oluştur",
+      "button_custom-fields": "Özel Alanlar",
+      "button_delete": "silmek",
+      "button_delete_watcher": "Takipçi sil",
+      "button_details_view": "Ayrıntılar görünümü",
+      "button_duplicate": "Çoğaltın",
+      "button_edit": "Düzenle",
+      "button_expand_all": "Tümünü genişlet",
+      "button_export-atom": "Atom İndir",
+      "button_export-pdf": "PDF indir",
+      "button_filter": "Filtre",
+      "button_list_view": "Liste görünümü",
+      "button_log_costs": "Günlük birim maliyetleri",
+      "button_log_time": "Günlük zamanı kaydet",
+      "button_more": "Daha",
+      "button_more_actions": "Daha fazla eylem",
+      "button_open_details": "Ayrıntılar görünümünü aç",
+      "button_open_fullscreen": "Tam ekran görünümünü aç",
+      "button_quote": "Alıntı",
+      "button_save": "Kayıt etmek",
+      "button_settings": "Ayarlar",
+      "button_show_cards": "Kart görünümünü göster",
+      "button_show_fullscreen": "Tam ekran görünümünü göster",
+      "button_show_gantt": "Gantt görünümünü göster",
+      "button_show_list": "Liste görünümünü göster",
+      "button_show_table": "Tablo görünümünü göster",
+      "button_show_view": "Tam ekran görünümü",
+      "button_uncheck_all": "Tümünü işaretleme",
+      "button_update": "Güncelleştirme",
+      "calendar": {
+        "create_new": "Yeni takvim oluştur",
+        "title": "Takvim",
+        "too_many": "Toplamda %{count} iş paketi var, ancak sadece  %{max} gösterilebilir.",
+        "unsaved_title": "İsimsiz takvim"
+      },
+      "caption_rate_history": "Hız tarihi",
+      "card": {
+        "add_new": "Yeni kart ekleyin",
+        "highlighting": {
+          "entire_card_by": "Kartın tamamı",
+          "inline": "Satır içi vurgula:"
+        },
+        "remove_from_list": "Kartı listeden çıkar"
+      },
+      "chart": {
+        "axis_criteria": "Eksen kriterleri",
+        "errors": {
+          "could_not_load": "Grafiği görüntülemek için veri yüklenemedi. Gerekli izinler eksik olabilir."
+        },
+        "modal_title": "İş paketi grafik konfigürasyonu",
+        "tabs": {
+          "dataset": "Veri Kümesi %{number}",
+          "graph_settings": "Genel"
+        },
+        "type": "Grafik tipi",
+        "types": {
+          "bar": "Çubuk",
+          "doughnut": "Tatlı çörek",
+          "horizontal_bar": "Yatay çubuk",
+          "line": "Çizgi",
+          "pie": "Turta",
+          "polar_area": "kutupsal alan",
+          "radar": "Radar"
+        }
+      },
+      "clipboard": {
+        "browser_error": "Your browser doesn't support copying to clipboard. Please copy it manually: %{content}",
+        "copied_successful": "Panoya başarıyla kopyalandı!"
+      },
+      "close_filter_title": "Filtreyi kapat",
+      "close_form_title": "Formu kapat",
+      "close_popup_title": "Açılır pencereyi kapat",
+      "custom_actions": {
+        "date": {
+          "current_date": "Geçerli tarih",
+          "specific": "açık"
+        }
+      },
+      "dashboards": {
+        "label": "Gösterge paneli"
+      },
+      "description_available_columns": "Kullanılabilir sütunlar",
+      "description_current_position": "Buradasınız:",
+      "description_select_work_package": "#%{id} nolu iş paketini seçin",
+      "description_subwork_package": "#%{id} nolu iş paketinin alt parçası",
+      "editor": {
+        "ckeditor_error": "CKEditor içinde bir hata oluştu",
+        "error_saving_failed": "Aşağıdaki nedenden dolayı belge kayıt edilemedi: %{error}",
+        "macro": {
+          "attribute_reference": {
+            "invalid_attribute": "Seçilen '%{name}' özniteliği mevcut değil.",
+            "macro_help_tooltip": "Bu metin parçası bir makro tarafından dinamik olarak işleniyor.",
+            "nested_macro": "This macro is recursively referencing %{model} %{id}.",
+            "not_found": "İstenen kaynak bulunamadı"
+          },
+          "child_pages": {
+            "button": "Alt sayfalara bağlantılar",
+            "hint": "Geçerli sayfanın tüm alt sayfalarını listelemek için bu alanı boş bırakın. Farklı bir sayfaya referans vermek istiyorsanız, başlığını veya fişini belirtin.\n",
+            "include_parent": "Üst öğeyi dahil et",
+            "page": "Viki sayfası",
+            "text": "[Placeholder] Alt sayfalara bağlantılar",
+            "this_page": "bu sayfa"
+          },
+          "code_block": {
+            "button": "Kod parçacığı ekle",
+            "language": "Biçimlendirme dili",
+            "language_hint": "Vurgulamak için kullanılacak formatlama dilini girin (destekleniyorsa).",
+            "title": "Kod parçacığını ekle / düzenle"
+          },
+          "dropdown": {
+            "chose_macro": "Makro seçin",
+            "macros": "Makrolar"
+          },
+          "embedded_calendar": {
+            "text": "[Placeholder] Göümülü takvim"
+          },
+          "embedded_table": {
+            "button": "Gömülü iş paketi tablosu",
+            "text": "[Yer Tutucu] Gömülü iş paketi tablosu"
+          },
+          "error": "Makro genişletilemiyor: %{message}",
+          "toc": "İçindekiler",
+          "toolbar_help": "Widget'ı seçmek ve araç çubuğunu göstermek için tıklayın. Widget'ı düzenlemek için çift tıklayın",
+          "wiki_page_include": {
+            "button": "Başka bir wiki sayfasının içeriğini ekle",
+            "hint": "Başlığını veya sümüklü böcek belirterek başka bir wiki sayfasının içeriğini ekleyin.\nBaşka bir projenin wiki sayfasını, aşağıdaki örnekte olduğu gibi iki nokta ile ayırarak ekleyebilirsiniz.\n",
+            "not_set": "(Sayfa ayarlanmadı)",
+            "page": "Viki sayfası",
+            "text": "[Placeholder] Dahil edilen wiki sayfası"
+          },
+          "work_package_button": {
+            "button": "Çalışma paketi yarat düğmesi ekle",
+            "button_style": "Düğme biçimini kullan",
+            "button_style_hint": "İsteğe bağlı: Makronun bağlantı olarak değil, düğme olarak görünmesini sağlayın.",
+            "type": "İş paketi tipi",
+            "with_type": "İş paketini oluştur (Tür %{typename})",
+            "without_type": "İş paketini oluştur"
+          }
+        },
+        "mode": {
+          "manual": "Markdown kaynağına geç",
+          "wysiwyg": "WYSIWYG düzenleyiciye geç"
+        },
+        "no_revisions": "No local modifications found",
+        "preview": "Önizleme modunu aç/kapat",
+        "revisions": "Show local modifications",
+        "source_code": "Markdown kaynak modunu değiştir"
+      },
+      "enumeration_activities": "Etkinlikler (zaman izleme)",
+      "enumeration_doc_categories": "Belge kategorileri",
+      "enumeration_work_package_priorities": "İş paketi öncelikleri",
+      "error": {
+        "cannot_save_changes_with_message": "Değişikliklerinizin kaydedilememesine sebep olan hata: %{error}",
+        "embedded_table_loading": "Gömülü görünüm yüklenemedi: %{message}",
+        "internal": "İç hata oluştu.",
+        "query_saving": "Görünüm kaydedilemedi."
+      },
+      "error_attachment_upload": "Dosya yüklenemedi: %{error}",
+      "error_attachment_upload_permission": "Bu kaynakta dosya yüklemek için izniniz bulunmamaktadır.",
+      "error_could_not_resolve_user_name": "Kullanıcı adı çözümlenemedi",
+      "error_could_not_resolve_version_name": "Sürüm adı çözümlenemedi",
+      "exclusion_info": {
+        "modal": {
+          "content": "The status '%{status_name}' has been configured to be excluded from hierarchy totals of Work, Remaining work, and % Complete. The totals do not take this value into account.",
+          "title": "Status excluded from hierarchy totals"
+        }
+      },
+      "favorite_projects": {
+        "no_results": "Favori projeniz yok",
+        "no_results_subtext": "Add one or multiple projects as favorite through their overview or in a project list."
+      },
+      "field_value_enter_prompt": "'%{field}' için bir değer girin",
+      "filter": {
+        "description": {
+          "text_close_filter": "Bir giridi seçmek için, örneğin odaktan uzaklaşmak için entera basın. Filitrelemeden çıkmak için ilk girdiyi (boş olanı) seçin.",
+          "text_open_filter": "Bu filtreyi 'ALT' ve ok tuşları ile açın."
+        },
+        "more_values_not_shown": "%{total} sonuç daha var, sonuçları filtrelemek için arama yapın.",
+        "noneElement": "(yok)",
+        "sorting": {
+          "criteria": {
+            "one": "İlk sıralama ölçütü",
+            "three": "Üçüncü sıralama ölçütleri",
+            "two": "İkinci sıralama ölçütü"
+          }
+        },
+        "time_zone_converted": {
+          "only_end": "Yerel saatinize göre %{to} kaldı.",
+          "only_start": "Yerel zamanınıza göre %{from} dan itibaren.",
+          "two_values": "%{from} - %{to} yerel saatinizle."
+        },
+        "value_spacer": "-"
+      },
+      "forms": {
+        "advanced_settings": "Gelişmiş ayarlar",
+        "load_error_message": "Form yüklenirken bir hata oluştu",
+        "submit_success_message": "Form başarıyla gönderildi",
+        "validation_error_message": "ütfen formda bulunan hataları düzeltin"
+      },
+      "gantt_chart": {
+        "button_activate": "İş-Zaman çizelgesi göster",
+        "button_deactivate": "İş-Zaman çizelgesi gizle.",
+        "filter": {
+          "noneSelection": "(yok)"
+        },
+        "label": "Gantt görünümü",
+        "labels": {
+          "bar": "Çubuk etiketleri",
+          "description": "Her zaman Gantt şemasının ilgili konumlarında gösterilmesini istediğiniz nitelikleri seçin. Bir öğenin üzerine gelindiğinde, bu nitelikler yerine tarih etiketlerinin gösterileceğini unutmayın.\n",
+          "farRight": "Uzak sağ",
+          "left": "Sol",
+          "right": "Sağ",
+          "title": "Etiket yapılandırma"
+        },
+        "quarter_label": "Ç%{quarter_number}",
+        "selection_mode": {
+          "notification": "İlişki oluşturmak için vurgulanan bir iş paket'ine tıklayın. İptal etmek için escape tuşuna basın."
+        },
+        "zoom": {
+          "auto": "Otomatik yakınlaştırma",
+          "days": "Gün",
+          "description": "Otomatik zoom mevcut olmadığında gösterilmesi gereken ilk yakınlaştırma seviyesini seçin.\n",
+          "in": "Yakınlaştır",
+          "months": "Ay",
+          "out": "Uzaklaştır",
+          "quarters": "Üç aylık",
+          "weeks": "Hafta",
+          "years": "Yıl"
+        }
+      },
+      "general_text_No": "Hayır",
+      "general_text_Yes": "Evet",
+      "general_text_no": "hayır",
+      "general_text_yes": "evet",
+      "github_integration": {
+        "github_actions": "Eylemler",
+        "pull_requests": {
+          "merged_message": "Pull request #%{pr_number} %{pr_link} for %{repository_link} has been %{pr_state} by %{github_user_link}.",
+          "message": "Pull request #%{pr_number} %{pr_link} for %{repository_link} authored by %{github_user_link} has been %{pr_state}.",
+          "referenced_message": "Pull request #%{pr_number} %{pr_link} for %{repository_link} authored by %{github_user_link} referenced this work package.",
+          "states": {
+            "closed": "kapalı",
+            "draft": "drafted",
+            "merged": "birleştirildi",
+            "opened": "opened",
+            "ready_for_review": "incelemeye hazır olarak işaretlendi"
+          }
+        },
+        "tab_header": {
+          "copy_menu": {
+            "description": "Git snippet'lerini panoya kopyala",
+            "label": "Git snippetları"
+          },
+          "git_actions": {
+            "branch_name": "Dal adı",
+            "cmd": "Boş işlemle dal oluştur",
+            "commit_message": "Mesaj işle",
+            "copy_error": "❌ Kopyalanamadı!",
+            "copy_success": "✅ Kopyalandı!",
+            "title": "Git için hızlı snippet'ler"
+          },
+          "title": "İstekleri getir"
+        },
+        "tab_prs": {
+          "empty": "Henüz bağlanan herhangi bir çekme isteği yok. PR açıklamasında <code>OP#%{wp_id}</code> kodunu kullanarak mevcut bir PR'yi bağlayın veya yeni bir PR oluşturun."
+        },
+        "work_packages": {
+          "tab_name": "GitHub"
+        }
+      },
+      "gitlab_integration": {
+        "gitlab_pipelines": "Pipelines",
+        "tab_header_issue": {
+          "title": "Sorunlar"
+        },
+        "tab_header_mr": {
+          "copy_menu": {
+            "description": "Git snippet'lerini panoya kopyala",
+            "label": "Git snippetları"
+          },
+          "create_mr": {
+            "description": "Create a Merge Request",
+            "label": "Create MR"
+          },
+          "git_actions": {
+            "branch_name": "Dal adı",
+            "cmd": "Boş işlemle dal oluştur",
+            "commit_message": "Mesaj işle",
+            "copy_error": "❌ Kopyalanamadı!",
+            "copy_success": "✅ Kopyalandı!",
+            "title": "Git için hızlı snippet'ler"
+          },
+          "title": "Merge requests"
+        },
+        "tab_issue": {
+          "empty": "There are no issues linked yet. Link an existing issue by using the code <code>OP#%{wp_id}</code> (or <code>PP#%{wp_id}</code> for private links) in the issue title/description or create a new issue."
+        },
+        "tab_mrs": {
+          "empty": "There are no merge requests linked yet. Link an existing MR by using the code <code>OP#%{wp_id}</code> (or <code>PP#%{wp_id}</code> for private links) in the MR title/description or create a new MR."
+        },
+        "updated_on": "Güncelleme tarihi",
+        "work_packages": {
+          "tab_name": "GitLab"
+        }
+      },
+      "global_search": {
+        "all_projects": "Tüm projelerde",
+        "close_search": "Aramayı kapat",
+        "current_project": "Bu projede",
+        "current_project_and_all_descendants": "Bu projede + alt projelerde",
+        "recently_viewed": "Recently viewed",
+        "search": "Ara",
+        "title": {
+          "all_projects": "tüm projeler",
+          "project_and_subprojects": "ve tüm alt projeler",
+          "search_for": "Aramak"
+        }
+      },
+      "grid": {
+        "add_widget": "Widget ekleyin",
+        "configure": "Widget'ı yapılandır",
+        "remove": "Widget'ı kaldır",
+        "upsale": {
+          "link": "Enterprise sürümü.",
+          "text": "İş paketi grafiği pencere öğesi gibi bazı pencere öğeleri yalnızca Enterprise sürümünde mevcuttur."
+        },
+        "widgets": {
+          "custom_text": {
+            "title": "Özel metin"
+          },
+          "documents": {
+            "no_results": "Henüz belge yok.",
+            "title": "Belgeler"
+          },
+          "members": {
+            "add": "Üye",
+            "no_results": "Görünür üye yok.",
+            "title": "Üyeler",
+            "too_many": "%{total} üyelerin %{count} sayısını gösteriliyor.",
+            "view_all_members": "Tüm üyeleri göster"
+          },
+          "missing_permission": "You don't have the necessary permissions to view this widget.",
+          "news": {
+            "at": "en",
+            "no_results": "Rapor için yeni birşey bulunamadı.",
+            "title": "Haberler"
+          },
+          "project_description": {
+            "no_results": "Henüz bir açıklama yazılmadı. Biri 'Proje ayarları' içinde sağlanabilir.",
+            "title": "Proje tanımı"
+          },
+          "project_details": {
+            "no_results": "Projeler için özel alan tanımlanmadı.",
+            "title": "Proje detayları"
+          },
+          "project_favorites": {
+            "no_results": "Şu anda favori projeniz yok. Favorilerinize bir proje eklemek için proje kontrol panelindeki yıldız simgesine tıklayın.",
+            "title": "Favori projeler"
+          },
+          "project_status": {
+            "at_risk": "Riskli",
+            "discontinued": "Durduruldu",
+            "finished": "Bitti",
+            "not_set": "Ayarlanmadı",
+            "not_started": "Başlatılmadı",
+            "off_track": "Kapalı parça",
+            "on_track": "Takipte",
+            "title": "Proje Durumu"
+          },
+          "subprojects": {
+            "no_results": "Alt proje yok.",
+            "title": "Alt Projeler"
+          },
+          "time_entries_current_user": {
+            "displayed_days": "Widget'te görüntülenen günler:",
+            "title": "Geçirdiğim zaman"
+          },
+          "time_entries_list": {
+            "no_results": "Son 7 günde zaman girişi yok.",
+            "title": "Harcanan zaman (son 7 gün)"
+          },
+          "work_packages_accountable": {
+            "title": "Sorumlusu olduğum iş paketleri"
+          },
+          "work_packages_assigned": {
+            "title": "Bana atanan iş paketleri"
+          },
+          "work_packages_calendar": {
+            "title": "Takvim"
+          },
+          "work_packages_created": {
+            "title": "Oluşturduğum iş paketleri"
+          },
+          "work_packages_graph": {
+            "title": "İş paketleri grafiği"
+          },
+          "work_packages_overview": {
+            "placeholder": "Düzenlemek için tıkla ...",
+            "title": "İş paketlerine genel bakış"
+          },
+          "work_packages_table": {
+            "title": "İş paketleri tablosu"
+          },
+          "work_packages_watched": {
+            "title": "İzlediğim iş paketleri"
+          }
+        }
+      },
+      "hal": {
+        "error": {
+          "edit_prohibited": "%{attribute} düzenlenmesi bu kaynak için engellendi. Bu özellik ya ilişkilerden (örneğin çocuklar) elde edilir ya da başka türlü yapılandırılamaz.\n",
+          "format": {
+            "date": "%{attribute} geçerli tarih değil - YYYY-AA-GG formatında girilmeli."
+          },
+          "general": "Bir hata oluştu.",
+          "update_conflict_refresh": "Kaynağı yenilemek ve en yeni sürüme güncellemek için burayı tıklayın."
+        }
+      },
+      "help_texts": {
+        "show_modal": "Metin giriş öznitelik yardımını göster"
+      },
+      "homescreen": {
+        "blocks": {
+          "new_features": {
+            "14_6": {
+              "standard": {
+                "new_features_html": "The release brings various features and improvements for you, e.g. <br> <ul class=\"%{list_styling_class}\"> <li>Benefit from more flexible progress reporting – thanks to user feedback.</li> <li>Receive an update notification with reload option for meetings.</li> <li>Enable a custom field for multiple projects at once.</li> <li>Use relative work package attribute macros.</li> <li>Show empty lines in saved rich text.</li> <li>See past meetings included in the number next to the Meetings tab.</li> </ul>\n"
+              }
+            },
+            "learn_about": "Yeni özellikler hakkında daha fazla bilgi edinin",
+            "text_new_features": "Yeni özellikler ve ürün güncellemeleri hakkında bilgi edinin."
+          }
+        }
+      },
+      "ical_sharing_modal": {
+        "copy_url_label": "Copy URL",
+        "description": "You can use the URL (iCalendar) to subscribe to this calendar in an external client and view up-to-date work package information from there.",
+        "ical_generation_error_text": "An error occured while generating the calendar URL.",
+        "inital_setup_error_message": "An error occured while fetching data.",
+        "success_message": "The URL \"%{name}\" was successfully copied to your clipboard. Paste it in your calendar client to complete the subscription.",
+        "title": "Subscribe to calendar",
+        "token_name_description_text": "If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href=\"my/access_token\", target=\"_blank\">access tokens</a> list.",
+        "token_name_label": "Where will you be using this?",
+        "token_name_placeholder": "Type a name, e.g. \"Phone\"",
+        "warning": "Please don't share this URL with other users. Anyone with this link will be able to view work package details without an account or password."
+      },
+      "ifc_models": {
+        "empty_warning": "Bu projenin henüz IFC modeli yok.",
+        "keyboard_input_disabled": "Görüntüleyicide klavye denetimleri yoktur. Görüntüleyiciye klavye kontrolü vermek için görüntüleyiciyi tıklayın.",
+        "models": {
+          "ifc_models": "IFC modelleri"
+        },
+        "use_this_link_to_manage": "IFC modellerinizi yüklemek ve yönetmek için bu bağlantıyı kullanın",
+        "views": {
+          "split": "Görüntüleyici ve tablolar",
+          "split_cards": "Görüntüleyici ve kartlar",
+          "viewer": "Görüntüleyici"
+        }
+      },
+      "include_projects": {
+        "apply": "Uygula",
+        "clear_selection": "Seçimi temizle",
+        "include_subprojects": "Tüm alt projeleri dahil et",
+        "no_results": "Arama kriterleriniz ile eşleşen proje yok",
+        "search_placeholder": "Proje ara...",
+        "selected_filter": {
+          "all": "Tüm projeler",
+          "selected": "Sadece seçilen"
+        },
+        "title": "Projeler",
+        "toggle_title": "Projeleri dahil et",
+        "tooltip": {
+          "current_project": "Bu, içinde bulunduğunuz mevcut projedir.",
+          "does_not_match_search": "Proje arama kriterleriyle eşleşmiyor.",
+          "include_all_selected": "Tüm alt projeleri dahil et etkinleştirildiğinden, proje zaten dahil edilmiştir."
+        }
+      },
+      "inplace": {
+        "btn_preview_disable": "Öngörüntülemeyi devre dışı bırak",
+        "btn_preview_enable": "Ön İzleme",
+        "button_cancel": "%{attribute}: İptal",
+        "button_cancel_all": "İptal etmek",
+        "button_edit": "%{attribute}: Düzenle",
+        "button_save": "%{attribute}: Kaydet",
+        "button_save_all": "Kaydet",
+        "clear_value_label": "-",
+        "errors": {
+          "maxlength": "%{field} %{maxLength} karakter(lerin) den fazla karakter içeremez",
+          "messages_on_field": "Bu alan geçersiz: %{messages}",
+          "minlength": "%{field} %{minLength} karakter(lerin) den az karakter içeremez",
+          "number": "%{field} geçerli bir sayı değil",
+          "required": "%{field} boş bırakılamaz"
+        },
+        "link_formatting_help": "Metin biçimlendirme yardım",
+        "null_value_label": "Değer yok"
+      },
+      "invite_user_modal": {
+        "back": "Geri",
+        "invite": "Davet et",
+        "message": {
+          "description": "Kullanıcıya, buradan kişisel bir mesaj ekleyebileceğiniz bir e-posta göndereceğiz. Davet için bir açıklama yararlı olabilir veya belki de başlamalarına yardımcı olacak projeyle ilgili bir parça bilgi olabilir.",
+          "label": "Davet Mesajı",
+          "next_button": "Sonraki"
+        },
+        "principal": {
+          "already_member_message": "Zaten %{project} üyesi",
+          "create_new_placeholder": "Yeni yer tutucu oluşturun:",
+          "invite_user": "Davet et",
+          "label": {
+            "name": "İsim",
+            "name_or_email": "İsim veya e-posta adresi"
+          },
+          "next_button": "Sonraki",
+          "no_results_group": "Hiç grup bulunamadı.",
+          "no_results_placeholder": "Hiçbir yer bulunamadı.",
+          "no_results_user": "Hiçbir kullanıcı bulunamadı",
+          "required": {
+            "group": "Lütfen bir grup seçin",
+            "placeholder": "Lütfen bir yer tutucu seçin",
+            "user": "Lütfen bir kullanıcı seçin"
+          }
+        },
+        "project": {
+          "label": "Proje",
+          "lacking_permission": "Şu anda seçili olan projeye kişiler atama izniniz olmadığından lütfen başka bir proje seçin.",
+          "lacking_permission_info": "Şu anda içinde olduğunuz projeye kullanıcılar atama izniniz yok. Başka bir tane seçmeniz gerekli.",
+          "next_button": "Sonraki",
+          "no_invite_rights": "Bu projeye üye davet etme izniniz yok",
+          "no_results": "Hiç proje bulunamadı",
+          "required": "Lütfen bir proje seçin"
+        },
+        "role": {
+          "description": "Bu, kullanıcının projenize katıldığında alacağı roldür. Rol, hangi eylemleri yapmalarına ve hangi bilgileri görmelerine izin verildiğini tanımlar.<ahref=\"https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/# roller-and-permissions\" target=\"_blank\"> Roller ve izinler hakkında daha fazla bilgi edinin. </a>",
+          "label": "rol %{project}",
+          "next_button": "Sonraki",
+          "no_roles_found": "Hiç rol bulunamadı.",
+          "required": "Lütfen bir rol seçin."
+        },
+        "success": {
+          "description": {
+            "group": "Grup artık %{project} 'nin bir parçası. Bu arada, bu grupla zaten plan yapabilir ve örneğin iş paketleri atayabilirsiniz.",
+            "placeholder": "Kullanıcı artık %{project} 'e erişmek için oturum açabilir. Bu arada, o kullanıcıyla zaten plan yapabilir ve örneğin iş paketleri atayabilirsiniz.",
+            "user": "Kullanıcı artık %{project} 'e erişmek için oturum açabilir. Bu arada, o kullanıcıyla zaten plan yapabilir ve örneğin iş paketleri atayabilirsiniz."
+          },
+          "next_button": "Devam et",
+          "title": "%{principal} davet edildi!"
+        },
+        "summary": {
+          "next_button": "Davet gönder"
+        },
+        "title": {
+          "Group": "Grup",
+          "PlaceholderUser": "Yer tutucu kullanıcılar",
+          "User": "Kullanıcılar",
+          "invite": "Kullanıcı davet et",
+          "invite_principal_to_project": "%{principal} 'i %{project} projesine davet edin\n",
+          "invite_to_project": "%{type} 'ı %{project} projesine davet edin"
+        },
+        "type": {
+          "group": {
+            "description": "Seçilen projede atanan role dayalı izinler",
+            "title": "Grup"
+          },
+          "placeholder": {
+            "description": "Projeye erişimi yoktur ve e-posta gönderilmez.",
+            "description_no_ee": "Projeye erişimi yoktur ve e-posta gönderilmez. <br><a href=\"%{eeHref}\" target=\"_blank\">Enterprise sürümünü</a> inceleyin",
+            "title": "Yer tutucu kullanıcı",
+            "title_no_ee": "Yer tutucu kullanıcı (yalnızca Enterprise sürümü eklentisi)"
+          },
+          "required": "Lütfen davet edilecek türü seçin",
+          "user": {
+            "description": "Seçilen projede atanan role dayalı izinler",
+            "title": "Kullanıcı"
+          }
+        }
+      },
+      "label_activate": "Etkinleştir",
+      "label_activity_show_all": "Tüm etkinlikleri göster",
+      "label_activity_show_only_comments": "Sadece yorumların olduğu etkinlikleri göster",
+      "label_add_attachments": "Dosyaları ekle",
+      "label_add_column_after": "Sonrasına sütun ekle",
+      "label_add_column_before": "Öncesine sütun ekle",
+      "label_add_columns": "Sütunlar ekle",
+      "label_add_comment": "Yorum ekle",
+      "label_add_comment_title": "Yorum yapmak ve diğer kişilere bunu bildirmek için @ yazın",
+      "label_add_description": "%{file} için açıklama ekle",
+      "label_add_row_after": "Sonrasına satır ekle",
+      "label_add_row_before": "Öncesine satır ekle",
+      "label_add_selected_columns": "Seçilen sütunları ekle",
+      "label_added_by": "ekleyen",
+      "label_added_time_by": "Added by <a href=\"%{authorLink}\">%{author}</a> at %{age}",
+      "label_ago": "gün önce",
+      "label_all": "tüm",
+      "label_all_uppercase": "Hepsi",
+      "label_all_work_packages": "tüm iş paketleri",
+      "label_and": "ve",
+      "label_ascending": "Azalan",
+      "label_assignee": "Atanan",
+      "label_attachments": "Ekler",
+      "label_author": "Yazar: %{user}",
+      "label_avatar": "Avatar",
+      "label_between": "arasında",
+      "label_board": "Pano",
+      "label_board_locked": "Kilitlendi",
+      "label_board_plural": "Panolar",
+      "label_board_sticky": "Sabit",
+      "label_cancel_comment": "Yorumu iptal et",
+      "label_change": "Değiştir",
+      "label_children_derived_duration": "Çalışma paketinin çocuklarının türetilen süresi",
+      "label_closed_work_packages": "kapalı",
+      "label_collapse": "Daralt",
+      "label_collapse_all": "Tümünü daralt",
+      "label_collapsed": "daraltılmış",
+      "label_columns": "Sütunlar",
+      "label_comment": "Yorum",
+      "label_committed_at": "%{committed_revision_link} %{date}",
+      "label_committed_link": "kaydedilmiş revizyon %{revision_identifier}",
+      "label_contains": "içerir",
+      "label_create": "Oluştur",
+      "label_create_work_package": "Yeni iş paketi oluştur",
+      "label_created_by": "Oluşturan",
+      "label_created_on": "oluşturma tarihi",
+      "label_current": "current",
+      "label_custom_queries": "Özel",
+      "label_date": "Tarih",
+      "label_date_with_format": "Aşağıdaki biçimi kullanarak %{date_attribute} girin: %{format}",
+      "label_deactivate": "Etkisizleştir",
+      "label_default_queries": "Varsayılan",
+      "label_descending": "Azalan",
+      "label_description": "Açıklama",
+      "label_details": "Detaylar",
+      "label_display": "Göster",
+      "label_drop_files": "Dosya eklemek için dosyaları buraya bırakın.",
+      "label_drop_folders_hint": "Klasörleri ek olarak karşıya yükleyemezsiniz. Lütfen tekil dosyalar seçiniz.",
+      "label_drop_or_click_files": "Dosyaları buraya bırakın veya eklemek için tıklayın",
+      "label_edit_comment": "Bu yorumu düzenle",
+      "label_edit_status": "İş paketi durumunu düzenle",
+      "label_email": "Eposta",
+      "label_equals": "şuysa",
+      "label_expand": "Genişlet",
+      "label_expand_all": "Tümünü genişlet",
+      "label_expand_project_menu": "Proje menüsünü genişlet",
+      "label_expanded": "genişletilmiş",
+      "label_export": "Dışarı aktar",
+      "label_export_preparing": "İhracat hazırlanıyor ve kısa süre içinde indirilecek.",
+      "label_favorites": "Favoriler",
+      "label_filename": "Dosya",
+      "label_files_to_upload": "Bu dosyalar yüklenecek:",
+      "label_filesize": "Boyutu",
+      "label_formattable_attachment_hint": "Dosyaları bu alana sürükleyerek ekleyebilir veya panodan yapıştırabilirsiniz.",
+      "label_general": "Genel",
+      "label_global_queries": "Genel",
+      "label_global_roles": "Global roles",
+      "label_greater_or_equal": ">=",
+      "label_group": "Grup",
+      "label_group_by": "Grupla",
+      "label_group_plural": "Gruplar",
+      "label_hide_attributes": "Daha az göster",
+      "label_hide_column": "Sütunu gizle",
+      "label_hide_project_menu": "Proje menüsünü daralt",
+      "label_hour": "saat",
+      "label_hours": "saatler",
+      "label_import": "İçeri Aktar",
+      "label_in": "şurada",
+      "label_in_less_than": "daha azdır",
+      "label_in_more_than": "daha fazla",
+      "label_incoming_emails": "Gelen e-postalar",
+      "label_information_plural": "Bilgi",
+      "label_invalid": "Geçersiz",
+      "label_last_updated_on": "Son güncelleme",
+      "label_latest_activity": "En son etkinlik",
+      "label_learn_more_link": "Daha fazla bilgi edin",
+      "label_less_or_equal": "<=",
+      "label_less_than_ago": "bir haftadan kısa bir süre önce",
+      "label_loading": "Yükleniyor...",
+      "label_mail_notification": "E-posta bildirimleri",
+      "label_manage_columns": "Manage and reorder columns",
+      "label_me": "ben",
+      "label_meeting_agenda": "Ajanda",
+      "label_meeting_minutes": "Dakika",
+      "label_meetings": "Toplantılar",
+      "label_menu_collapse": "çöküş",
+      "label_menu_expand": "genişletmek",
+      "label_more_than_ago": "günler önce",
+      "label_next": "Sonraki",
+      "label_no_color": "Renk yok",
+      "label_no_data": "Görüntülenecek veri yok",
+      "label_no_date": "tarih yok",
+      "label_no_due_date": "bitiş tarihi yok",
+      "label_no_start_date": "başlangıç tarihi yok",
+      "label_no_value": "Değer yok",
+      "label_none": "hiçbiri",
+      "label_not_contains": "içermiyor",
+      "label_not_equals": "değildir",
+      "label_on": "açık",
+      "label_open_context_menu": "Bağlam menüsünü aç",
+      "label_open_menu": "Menüyü Aç",
+      "label_open_work_packages": "açık",
+      "label_password": "Parola",
+      "label_per_page": "Sayfa başına:",
+      "label_please_wait": "Lütfen bekleyin",
+      "label_press_enter_to_save": "Kaydetmek için enter tuşuna basın.",
+      "label_preview": "Ön İzleme",
+      "label_previous": "Önceki",
+      "label_project": "Proje",
+      "label_project_list": "Project lists",
+      "label_project_plural": "Projeler",
+      "label_public_query": "Herkese Açık",
+      "label_quote_comment": "Yorumu alıntıla",
+      "label_recent": "son günlerdeki",
+      "label_rejected_files": "Bu dosyalar yüklenemiyor:",
+      "label_rejected_files_reason": "Dosyaların boyutu %{maximumFilesize} boyutunu aştığı için dosyalar yüklenemeyecek",
+      "label_remove": "Kaldır",
+      "label_remove_all_files": "Tüm dosyaları temizle",
+      "label_remove_column": "Sütunu kaldır",
+      "label_remove_columns": "Seçili sütunları sil",
+      "label_remove_file": "%{fileName} Sil",
+      "label_remove_row": "Satırı kaldır",
+      "label_remove_watcher": "%{name} isimli takipçi sil",
+      "label_report": "Rapor (bildiri)",
+      "label_repository_plural": "Depolar",
+      "label_reset": "Sıfırla",
+      "label_save_as": "Farklı Kaydet",
+      "label_search_columns": "Search a column",
+      "label_select_project": "Bir proje seçin",
+      "label_select_watcher": "Takipçi seç...",
+      "label_selected_filter_list": "Seçilen filtreler",
+      "label_show_attributes": "Tüm öznitelikleri göster",
+      "label_show_in_menu": "Görünümü menüde göster",
+      "label_sort_by": "Sıralama şekli",
+      "label_sort_higher": "Yukarı taşı",
+      "label_sort_lower": "Aşağı taşı",
+      "label_sorted_by": "sıralayan",
+      "label_sorting": "Sıralama",
+      "label_spent_time": "Harcanan zaman",
+      "label_star_query": "avantajlı",
+      "label_starred_queries": "Favorilere Ekle",
+      "label_subject": "Konu",
+      "label_sum": "toplam\n",
+      "label_sum_for": "Toplam",
+      "label_this_week": "bu hafta",
+      "label_time_entry_plural": "Harcanan zaman",
+      "label_today": "Bugün",
+      "label_total_amount": "Toplam: %{amount}",
+      "label_total_progress": "Toplam ilerleme %{percent}%",
+      "label_total_sum": "Toplam miktar",
+      "label_unwatch": "İzleme",
+      "label_unwatch_work_package": "İş pakaketini izlemeyi bırak",
+      "label_up": "Yukarı",
+      "label_updated_on": "güncelleme tarihi",
+      "label_upload_counter": "%{done} / %{count} dosya yüklendi",
+      "label_upload_notification": "Dosyalar yükleniyor...",
+      "label_uploaded_by": "Yükleyen",
+      "label_user_plural": "Kullanıcılar",
+      "label_validation_error": "İş paketi aşağıdaki hatalar nedeniyle kaydedilemedi:",
+      "label_value_derived_from_children": "(çocuklardan elde edilen değer)",
+      "label_version_plural": "Sürümler",
+      "label_view_has_changed": "Bu görünüm kaydedilmemiş değişikliklere sahip. Onları kaydetmek için tıklayın.",
+      "label_visibility_settings": "Görünürlük ayarları",
+      "label_wait": "Lütfen Yapılandırmanın tamamlanmasını bekleyin...",
+      "label_warning": "Uyarı",
+      "label_watch": "İzle",
+      "label_watch_work_package": "İş paketini izle",
+      "label_watcher_added_successfully": "Takipçi başarıyla eklendi!",
+      "label_watcher_deleted_successfully": "Takipçi başarıyla silindi!",
+      "label_work_package": "İş paketi",
+      "label_work_package_context_menu": "Work package context menu",
+      "label_work_package_details_you_are_here": "You are on the %{tab} tab for %{type} %{subject}.",
+      "label_work_package_parent": "İş paketini oluştur",
+      "label_work_package_plural": "İş paketleri",
+      "label_work_package_upload_notification": "#%{id}: %{subject} iş paketi için dosyalar yükleniyor",
+      "label_wp_id_added_by": "# %{id} %{author} tarafından eklendi",
+      "modals": {
+        "button_apply": "Uygula",
+        "button_cancel": "İptal etmek",
+        "button_delete": "Sil",
+        "button_save": "Kaydet",
+        "button_submit": "Gönder",
+        "destroy_time_entry": {
+          "text": "Aşağıdaki zaman girişini silmek istediğinizden emin misiniz?",
+          "title": "Zaman girişinin silinmesini onaylayın"
+        },
+        "destroy_work_package": {
+          "bulk_text": "Aşağıdaki %{label}'i silmek istediğinizden emin misiniz?",
+          "confirm_deletion_children": "Listelenen iş paketlerinin TÜM soylarının tekrar tekrar kaldırılacağını kabul ediyorum.",
+          "deletes_children": "Tüm çocuk iş paketleri ve torunları da tekrar tekrar silinir.",
+          "has_children": "İş paketi %{childUnits} alt paketlerine sahip:",
+          "single_text": "Bu iş paketini silmek istediğinize emin misiniz?",
+          "title": "%{label} için silme işlimini onaylayın"
+        },
+        "form_submit": {
+          "text": "Bu işlemi gerçekleştirmek istediğinizden emin misiniz?",
+          "title": "Devam etmek için onaylayın"
+        },
+        "label_delete_page": "Şu anki sayfayı sil",
+        "label_name": "İsim"
+      },
+      "my_page": {
+        "label": "Benim sayfam"
+      },
+      "notice_bad_request": "Hatalı istek.",
+      "notice_job_started": "görev başlatıldı.",
+      "notice_no_results_to_display": "Gösterilecek görünür bir sonuç yok.",
+      "notice_successful_create": "Oluşturma başarılı.",
+      "notice_successful_delete": "Silme başarılı.",
+      "notice_successful_update": "Güncelleme başarılı.",
+      "notifications": {
+        "center": {
+          "and_more_users": {
+            "one": "ve 1 diğer",
+            "other": "ve %{count} diğer"
+          },
+          "empty_state": {
+            "no_notification": "Looks like you are all caught up.",
+            "no_notification_for_filter": "Looks like you are all caught up for this filter.",
+            "no_notification_with_current_filter": "Looks like you are all caught up for %{filter} filter.",
+            "no_notification_with_current_project_filter": "Looks like you are all caught up with the selected project.",
+            "no_selection": "Tüm etkinlik ayrıntılarını görüntülemek için bir bildirime tıklayın."
+          },
+          "label_actor_and": "ve",
+          "mark_all_read": "Tümünü okundu olarak işaretle",
+          "mark_as_read": "Okundu olarak işaretle",
+          "new_notifications": {
+            "link_text": "Click here to load them.",
+            "message": "Yeni bildirimler var"
+          },
+          "no_results": {
+            "at_all": "Sizi ilgilendiren bir etkinlik olduğunda yeni bildirimler burada görünecektir.",
+            "with_current_filter": "Şu anda bu görünümde bildirim yok"
+          },
+          "text_update_date_by": "%{date} by",
+          "total_count_warning": "En yeni %{newest_count} bildirim gösteriliyor. %{more_count} tane daha görüntülenmiyor."
+        },
+        "date_alerts": {
+          "milestone_date": "Kilometre taşı tarihi",
+          "overdue": "Süresi geçmiş",
+          "overdue_since": "%{difference_in_days} beri",
+          "property_is": "%{difference_in_days} içinde",
+          "property_is_deleted": "silindi",
+          "property_today": "bugün",
+          "property_was": "%{difference_in_days} önceydi",
+          "upsale": {
+            "description": "Tarih uyarıları ile yaklaşan başlangıç veya bitiş tarihleri hakkında bilgilendirileceksiniz, böylece önemli bir teslim tarihini asla kaçırmaz veya unutmazsınız.",
+            "title": "Tarih uyarısı"
+          }
+        },
+        "no_unread": "Okunmamış bildirim yok",
+        "reasons": {
+          "assigned": "Atanan",
+          "commented": "Yorumlananlar",
+          "created": "Oluşturuldu",
+          "dateAlert": "Tarih uyarısı",
+          "mentioned": "Bahsedilen",
+          "prioritized": "Prioritized",
+          "processed": "Processed",
+          "responsible": "Accountable",
+          "scheduled": "Zamanlandı",
+          "shared": "Shared",
+          "watched": "Takipçi"
+        },
+        "settings": {
+          "change_notification_settings": "Önemli bir güncellemeyi asla kaçırmamak için <a target=\"_blank\" href=\"%{url}\">bildirim ayarlarınızı</a> değiştirebilirsiniz.",
+          "global": {
+            "date_alerts": {
+              "description": "Dahil olduğunuz (vekil, sorumlu veya gözlemci) açık iş paketleri için önemli tarihler yaklaştığında otomatik bildirimler.",
+              "teaser_text": "Tarih uyarıları ile yaklaşan başlangıç veya bitiş tarihleri hakkında bilgilendirileceksiniz, böylece önemli bir teslim tarihini asla kaçırmaz veya unutmazsınız.",
+              "title": "Tarih uyarısı"
+            },
+            "delayed": {
+              "description": "Tüm projelerdeki faaliyetler için ek bildirimler.",
+              "title": "Katılmayan"
+            },
+            "immediately": {
+              "description": "Dahil olduğunuz (vekil, sorumlu veya gözlemci) iş paketlerindeki tüm faaliyetler için bildirimler.",
+              "title": "Katılım"
+            },
+            "overdue": "Süresi geçtiğinde"
+          },
+          "notify_me": "Beni dürt",
+          "project_specific": {
+            "add": "Proje için ayar ekle",
+            "already_selected": "Bu proje zaten seçildi",
+            "description": "Bu projeye özgü ayarlar, yukarıdaki varsayılan ayarları geçersiz kılar.",
+            "remove": "Proje ayarlarını sil",
+            "title": "Projeye özel bildirim ayarları"
+          },
+          "reasons": {
+            "assignee": "Atanan",
+            "mentioned": {
+              "description": "Birisi herhangi bir yerde benden her bahsettiğinde bir bildirim alın",
+              "title": "Bahsedilen"
+            },
+            "responsible": "Sorumlu",
+            "shared": "Shared",
+            "watched": "İzleyici",
+            "work_package_commented": "Tüm yeni yorumlar",
+            "work_package_created": "Yeni iş paketleri",
+            "work_package_prioritized": "Tüm öncelik değişiklikleri",
+            "work_package_processed": "Tüm durum değişiklikleri",
+            "work_package_scheduled": "Tüm tarih değişiklikleri"
+          },
+          "reminders": {
+            "no_notification": "Bildirim yok",
+            "timeframes": {
+              "normal": {
+                "P1D": "1 gün önce",
+                "P3D": "3 gün önce",
+                "P7D": "1 hafta önce",
+                "PT0S": "aynı gün"
+              },
+              "overdue": {
+                "P1D": "her gün",
+                "P3D": "Her 3 günde bir",
+                "P7D": "her hafta"
+              }
+            }
+          },
+          "title": "Bildirim ayarları"
+        },
+        "title": "Bildirimler"
+      },
+      "onboarding": {
+        "buttons": {
+          "got_it": "Anladım",
+          "next": "Sonraki",
+          "skip": "Atla"
+        },
+        "steps": {
+          "backlogs": {
+            "overview": "İşinizi <b>birikimler</b> görünümünde yönetin.",
+            "sprints": "Sağ tarafta ürün biriktirme listesi ve hata biriktirme listesi var, solda da ilgili sprintler var. Burada <b>epikler, kullanıcı hikayeleri ve buglar</b> oluşturabilir, sürükleyip bırakarak öncelik sırasına koyabilir ve bunları bir sprint'e ekleyebilirsiniz.",
+            "task_board": "Görev panosu, <b>bu sprint için ilerlemeyi</b> görselleştirir. Yeni görevler veya engeller eklemek için bir kullanıcı hikayesinin yanındaki artı (+) simgesine tıklayın. <br> Sürükle bırak ile durum güncellenebilir.",
+            "task_board_arrow": "<b>Görev pano</b>nuzu görmek için Sprint açılır menüsünde açın...",
+            "task_board_select": "... ve <b>görev panosu</b> kaydını seçin."
+          },
+          "boards": {
+            "add": "Panodaki listeye <b>yeni bir kart oluşturmak</b> veya <b>mevcut bir kartı eklemek</b> için artı (+) simgesini tıklayın.",
+            "drag": "Yeniden sıralamak veya başka bir listeye taşımak için kartlarınızı belirli bir listeye sürükleyip bırakın. <br> Sağ üst köşedeki bilgi (i) simgesine tıklayabilir veya bir kartı çift tıklayarak ayrıntılarını açabilirsiniz.",
+            "lists_basic": "Burada, hızlı panonuz içinde birden fazla liste (sütun) oluşturabilirsiniz.",
+            "lists_kanban": "Burada panonuzda birden çok liste (sütun) oluşturabilirsiniz. Bu özellik, örneğin bir <b>Kanban panosu</b> oluşturmanıza olanak tanır.",
+            "overview": "Görünümü değiştirmek ve çevik panolar görünümünü kullanarak projenizi yönetmek için <b>panolar</b>'ı seçin."
+          },
+          "help_menu": "Yardım (?) menüsü <b>ek yardım kaynakları</b> sağlar. Burada bir kullanım kılavuzu, yararlı nasıl yapılır videoları ve daha fazlasını bulabilirsiniz. <br> OpenProject ile işinizin tadını çıkarın!",
+          "members": "Projenize katılmak için yeni <b>üyeler</b> davet edin.",
+          "quick_add_button": "<b>Yeni bir proje oluşturmak</b> veya <b>iş arkadaşlarınızı davet etmek</b> için başlık bölümündeki artı (+) simgesini tıklayın.",
+          "sidebar_arrow": "Projenin <b>ana menüsüne</b> dönmek için sol üst köşedeki dönüş okunu kullanın.",
+          "team_planner": {
+            "add_assignee": "Başlamak için ekip planlayıcıya atanan kişileri ekleyin.",
+            "add_existing": "Mevcut iş paketlerini arayın ve anında bir ekip üyesine atamak ve başlangıç ve bitiş tarihlerini tanımlamak için bunları ekip planlayıcıya sürükleyin.",
+            "calendar": "Haftalık veya iki haftalık planlama panosu, ekip üyelerinize atanan tüm iş paketlerini görüntüler.",
+            "card": "İş paketlerini zamanda geriye veya ileriye taşımak için yatay olarak sürükleyin, başlangıç ve bitiş tarihlerini değiştirmek için kenarları sürükleyin ve hatta başka bir üyeye atamak için farklı bir satıra dikey olarak sürükleyin.",
+            "overview": "Takım planlayıcı, takım üyelerine görsel olarak görevler atamanıza ve kimin ne üzerinde çalıştığına dair bir genel bakış elde etmenize olanak tanır."
+          },
+          "welcome": "En <b>önemli özellikleri</b> öğrenmek için üç dakikalık bir tanıtım gezintisine çıkın. <br> Tüm adımları tamamlamanızı öneririz. Turu istediğiniz zaman yeniden başlatabilirsiniz.",
+          "wiki": "<b>wiki</b> içinde belgeleyebilir ve ekibinizle birlikte bilgi paylaşabilirsiniz.",
+          "wp": {
+            "back_button": "Çıkmak ve iş paketi listesine geri dönmek için sol üst köşedeki dönüş okunu kullanın.",
+            "create_button": "<b>+ Oluştur</b> düğmesi, projenize yeni bir çalışma paketi ekleyecektir.",
+            "full_view": "<b>İş paketi ayrıntıları</b> görünümü, tanımı, durumu, önceliği, etkinlikleri, bağımlılıkları ve yorumları gibi belirli bir iş paketiyle ilgili tüm ilgili bilgileri sağlar.",
+            "gantt_menu": "Create project schedules and timelines effortlessly using the Gantt chart module.",
+            "list": "Bu <b>iş</b> paketine genel bakış, projenizdeki görevler, kilometre taşları, aşamalar ve daha fazlası gibi tüm işlerin bir listesini sağlar. <br> İş paketleri doğrudan bu görünümden oluşturulabilir ve düzenlenebilir. Belirli bir iş paketinin ayrıntılarına erişmek için satırına çift tıklamanız yeterlidir.",
+            "timeline": "Burada <b>proje planınızı düzenleyebilir</b>, görevler, kilometre taşları, aşamalar ve daha fazlası gibi yeni iş paketleri oluşturabilir ve <b>bağımlılıklar ekleyebilirsiniz</b>. Tüm ekip üyeleri istedikleri zaman en son planı görebilir ve güncelleyebilir.",
+            "toggler": "Şimdi, size çalışmanız hakkında daha ayrıntılı bir görünüm sağlayan <b> İş paketi </b> bölümüne göz atalım."
+          }
+        }
+      },
+      "open_project_storage_modal": {
+        "waiting_subtitle": {
+          "network_off": "There is a network problem.",
+          "network_on": "Network is back. We are trying.",
+          "timeout": "OpenProject could not provide you access to the project folder within the expected period of time. Please, try once again.<br><br> If that problem persists please contact your OpenProject administrator to check the <a href=\"https://www.openproject.org/docs/system-admin-guide/files/external-file-storages/file-storage-troubleshooting/\">health status of the file storage setup</a>.\n"
+        },
+        "waiting_title": {
+          "timeout": "Timeout"
+        }
+      },
+      "overviews": {
+        "label": "Genel Bakış"
+      },
+      "pagination": {
+        "no_other_page": "Geçerli tek sayfadasınız.",
+        "pages": {
+          "next": "Bir sonraki sayfaya ilerleyin",
+          "previous": "Önceki sayfa geri dön"
+        }
+      },
+      "password_confirmation": {
+        "field_description": "Bu değişikliği onaylamak için hesap parolanızı girmeniz gerekir.",
+        "title": "Devam etmek için parolanızı doğrulayın"
+      },
+      "placeholders": {
+        "default": "-",
+        "description": "Açıklama: Düzenlemek için tıklayın...",
+        "relation_description": "Bu ilişkiye açıklama eklemek için tıklayın",
+        "selection": "Lütfen seçin",
+        "subject": "Buraya konuyu girin"
+      },
+      "project": {
+        "autocompleter": {
+          "label": "Proje otomatik tamamlama"
+        },
+        "click_to_switch_to_project": "Project: %{projectname}",
+        "confirm_template_load": "Şablonu değiştirmek sayfayı yeniden yükleyecek ve bu forma yaptığınız tüm girişleri kaybedeceksiniz. Devam et?",
+        "context": "Proje içeriği",
+        "copy": {
+          "copy_options": "Ayarları kopyala"
+        },
+        "details_activity": "Proje ayrıntıları etkinliği",
+        "no_template_selected": "(Yok)",
+        "required_outside_context": "Lütfen tüm özellikleri görmek için çalışma paketini oluşturacak bir proje seçin. Yalnızca yukarıdaki türden etkin olan projeleri seçebilirsiniz.\n",
+        "use_template": "Şablon kullan"
+      },
+      "project_menu_details": "Detaylar",
+      "relation_buttons": {
+        "abort": "İptal",
+        "add_existing": "Mevcut olanı ekle",
+        "add_existing_child": "Mevcut bir alt birim ekle",
+        "add_existing_relation": "Varolan ilişki ekle",
+        "add_follower": "Takipçi ekle",
+        "add_new_child": "Yeni alt birim oluştur",
+        "add_new_relation": "Yeni ilişki oluştur",
+        "add_parent": "Mevcut bir üst ekle",
+        "add_predecessor": "Öncelik ekle",
+        "change_parent": "Üstünü değiştir",
+        "create_new": "Yeni oluştur",
+        "group_by_relation_type": "İlişki türüne göre gruplandırma",
+        "group_by_wp_type": "İş paketi türüne göre grupla",
+        "hierarchy_indent": "Girinti hiyerarşisi",
+        "hierarchy_outdent": "Dış diş hiyerarşisi",
+        "remove": "İlişkiyi kaldır",
+        "remove_child": "Alt bileşeni kaldır",
+        "remove_parent": "Üstündekini kaldır",
+        "save": "İlişkiyi kaydet",
+        "set_parent": "Üstünü ayarla",
+        "show_relations": "İlişkileri göster",
+        "toggle_description": "İlişki açıklamasını göster",
+        "update_description": "Bu ilişkinin açıklamasını güncelle",
+        "update_relation": "İlişki türünü değiştirmek için tıklayın"
+      },
+      "relation_labels": {
+        "blocked": "Bağlı",
+        "blocks": "Engeller",
+        "children": "Çocuk",
+        "duplicated": "Tarafından çoğaltılır",
+        "duplicates": "Çoğaltır",
+        "follows": "Takip eder",
+        "includes": "İçerir",
+        "parent": "Üst",
+        "partof": "Bölümü",
+        "precedes": "İletletir",
+        "relates": "Alakalı",
+        "relation_type": "ilişki türü",
+        "required": "Gerektirir",
+        "requires": "Şunu gerektirir"
+      },
+      "relations": {
+        "empty": "İlişki bulunmuyor",
+        "remove": "İlişkiyi kaldır"
+      },
+      "relations_autocomplete": {
+        "parent_placeholder": "Yeni bir ebeveyn seçin veya iptal etmek için escape tuşuna basın.",
+        "placeholder": "Aramak için metni yazın"
+      },
+      "relations_hierarchy": {
+        "children_headline": "Çocuk",
+        "hierarchy_headline": "Hiyerarşi",
+        "parent_headline": "Üst"
+      },
+      "reminders": {
+        "settings": {
+          "alerts": {
+            "document_added": "Belgeler eklendi",
+            "explanation": "Bildirimler bugün iş paketleri ile sınırlıdır. Bildirimlere eklenene kadar bu etkinlikler için e-posta uyarıları almaya devam etmeyi seçebilirsiniz:\n",
+            "forum_messages": "Yeni forum mesajları",
+            "membership_added": "Üyelik eklendi",
+            "membership_updated": "Üyelik güncellendi",
+            "news_added": "Haberler eklendi",
+            "news_commented": "Bir habere yorum yapın",
+            "title": "Diğer öğeler için e-posta uyarıları (iş paketleri olmayanlar)",
+            "wiki_page_added": "Viki sayfası eklendi",
+            "wiki_page_updated": "Viki sayfası güncellendi"
+          },
+          "daily": {
+            "add_time": "Süre ekle",
+            "enable": "Günlük email hatırlatıcılarını etkinleştir",
+            "explanation": "Bu hatırlatıcıları yalnızca okunmamış bildirimler için ve yalnızca sizin belirlediğiniz saatlerde alacaksınız. %{no_time_zone}",
+            "no_time_zone": "Hesabınız için bir saat dilimi yapılandırana kadar, saatler UTC olarak yorumlanacaktır.",
+            "time_label": "Zaman %{counter}:",
+            "title": "Okunmamış bildirimler için bana günlük e-posta hatırlatıcıları gönder"
+          },
+          "immediate": {
+            "mentioned": "Birisi benden @bahsettiğinde hemen",
+            "title": "Bana email hatırlatıcısı gönder"
+          },
+          "pause": {
+            "first_day": "İlk gün",
+            "label": "Email hatırlatıcılarını geçici olarak durdur",
+            "last_day": "Son gün"
+          },
+          "title": "Email hatırlatıcıları",
+          "workdays": {
+            "title": "Bu günlerde e-posta hatırlatıcıları alın"
+          }
+        }
+      },
+      "reporting_engine": {
+        "label_remove": "silmek",
+        "label_response_error": "Sorgu işlenirken bir hata oluştu."
+      },
+      "repositories": {
+        "select_branch": "Branş seç",
+        "select_tag": "Etiket seç"
+      },
+      "revit": {
+        "revit_add_in": "Revit Eklentisi",
+        "revit_add_in_settings": "Revit eklenti ayarlarını geri al"
+      },
+      "scheduling": {
+        "manual": "Manuel zamanlamayı etkinleştir"
+      },
+      "sharing": {
+        "selected_count": "%{count} selected",
+        "selection": {
+          "mixed": "Mixed"
+        },
+        "share": "Paylaş"
+      },
+      "sort": {
+        "activate_asc": "artan sıralamı uygulamak için etkinleştir",
+        "activate_dsc": "azalan sıralama uygulamak için etkinleştir",
+        "activate_no": "sıralamayı kaldırmak için etkinleştir",
+        "sorted_asc": "Artan sıralama, uygulandı, ",
+        "sorted_dsc": "Azalan sırılama uygulandı, ",
+        "sorted_no": "Sıralama uygulanmadı, ",
+        "sorting_disabled": "sıralama devre dışı"
+      },
+      "spot": {
+        "drop_modal": {
+          "close": "Close modal",
+          "focus_grab": "Bu, modallar için bir odak noktasıdır. Modal tetikleme öğesine geri dönmek için shift+tab tuşlarına basın."
+        },
+        "filter_chip": {
+          "remove": "Kaldır"
+        }
+      },
+      "storages": {
+        "choose_location": "Konum seç",
+        "drop_files": "%{name}'a yüklemek için dosyaları buraya bırakın.",
+        "drop_or_click_files": "Dosyaları %{name}'a yüklemek için buraya bırakın veya tıklayın.",
+        "file_links": {
+          "already_linked_directory": "Bu dizin zaten bu çalışma paketine bağlı.",
+          "already_linked_file": "Bu dosya zaten bu iş paketine bağlı.",
+          "download": "%{fileName} dosyasını indir",
+          "empty": "Şu anda bu çalışma paketine bağlı dosya yok. Aşağıdaki işlemle veya %{storageType} içinden dosyaları bağlamaya başlayın.\n",
+          "link_uploaded_file_error": "Yakın zamanda yüklenen '%{fileName}' dosyasını %{workPackageId} iş paketine bağlarken bir hata oluştu.\n",
+          "open": "Dosyayı depoda aç",
+          "open_location": "Dosyayı konumda aç",
+          "remove": "Dosya bağlantısını kaldır",
+          "remove_confirmation": "Dosyanın bu çalışma paketinden bağlantısını kaldırmak istediğinizden emin misiniz? Bağlantının kaldırılması orijinal dosyayı etkilemez ve yalnızca bu çalışma paketine olan bağlantıyı kaldırır.\n",
+          "remove_short": "Bağlantıyı kaldır",
+          "select": "Dosyaları seç",
+          "select_all": "Tümünü seç",
+          "selection": {
+            "one": "1 dosya bağla",
+            "other": "%{count} dosya bağla",
+            "zero": "Bağlanacak dosyaları seçin"
+          },
+          "success_create": {
+            "one": "1 dosya bağlantısı başarıyla oluşturuldu.",
+            "other": "%{count} dosya bağlantısı başarıyla oluşturuldu."
+          },
+          "tooltip": {
+            "not_found": "This file cannot be found.",
+            "not_logged_in": "Please log in to the storage to access this file.",
+            "view_not_allowed": "Bu dosyayı görme izniniz yok."
+          },
+          "upload_error": {
+            "403": "Your file (%{fileName}) could not be uploaded due to system restrictions. Please contact your administrator for more information.\n",
+            "413": "Your file (%{fileName}) is bigger than what OpenProject can upload to %{storageType}. You can upload it directly to %{storageType} first and then link the file.\n",
+            "507": "Your file (%{fileName}) is bigger than the storage quota allows. Contact your administrator to modify this quota.\n",
+            "default": "Your file (%{fileName}) could not be uploaded.\n",
+            "detail": {
+              "nextcloud": "Please check that the latest version of the Nextcloud App \"OpenProject Integration\" is installed and contact your administrator for more information.\n"
+            }
+          }
+        },
+        "files": {
+          "already_existing_body": "A file with the name \"%{fileName}\" already exists in the location where you are trying to upload this file. What would you like to do?\n",
+          "already_existing_header": "This file already exists",
+          "directory_not_writeable": "You do not have permission to add files to this folder.",
+          "dragging_folder": "The upload to %{storageType} does not support folders.",
+          "dragging_many_files": "%{storageType}'a yükleme aynı anda yalnızca bir dosyayı destekler.",
+          "empty_folder": "Bu klasör boş.\n",
+          "empty_folder_location_hint": "Dosyayı bu konuma yüklemek için aşağıdaki düğmeyi tıklayın.",
+          "file_not_selectable_location": "Konum seçme sürecinde dosya seçmek mümkün değildir.",
+          "managed_project_folder_no_access": "You have no access yet to the managed project folder. Please wait a bit and try again.\n",
+          "managed_project_folder_not_available": "The automatically managed project folder was not yet found. Please wait a bit, reload the page to fetch the newest data, and try again.\n",
+          "project_folder_no_access": "You have no access to the project folder. Please, contact your administrator to get access or upload the file in another location.\n",
+          "upload_keep_both": "Keep both",
+          "upload_replace": "Değiştir"
+        },
+        "information": {
+          "connection_error": "Bazı %{storageType} ayarları çalışmıyor. Lütfen %{storageType} yöneticinizle iletişime geçin.\n",
+          "live_data_error": "Dosya ayrıntıları getirilirken hata oluştu",
+          "live_data_error_description": "Bazı %{storageType} verileri getirilemedi. Lütfen bu sayfayı yeniden yüklemeyi deneyin veya %{storageType} yöneticinizle iletişime geçin.\n",
+          "no_file_links": "Dosyaları bu iş paketine bağlamak için lütfen bunu %{storageType} aracılığıyla yapın.",
+          "not_logged_in": "Bir bağlantı eklemek, bu iş paketiyle ilgili dosyaları görmek veya yüklemek için lütfen %{storageType}'da oturum açın.\n"
+        },
+        "link_existing_files": "Mevcut dosyaları bağla",
+        "link_files_in_storage": "%{storageType} içindeki dosyaları bağla",
+        "login": "%{storageType} oturum açma",
+        "login_to": "%{storageType}'da oturum açın",
+        "no_connection": "%{storageType} bağlantısı yok",
+        "open_storage": "%{storageType}'ı açın",
+        "select_location": "Konum seç",
+        "types": {
+          "default": "Depolama",
+          "nextcloud": "Nextcloud",
+          "one_drive": "OneDrive/SharePoint"
+        },
+        "upload_files": "Dosyaları yükle"
+      },
+      "team_planner": {
+        "add_assignee": "Assignee",
+        "add_existing": "Mevcut olanı ekle",
+        "add_existing_title": "Mevcut iş paketlerini ekleyin",
+        "cannot_drag_here": "İzinler veya düzenleme kısıtlamaları nedeniyle iş paketi kaldırılamıyor.",
+        "cannot_drag_to_non_working_day": "Bu iş paketi, çalışma dışı bir günde başlayamaz/bitemez.",
+        "create_label": "Takım planlayıcısı",
+        "create_title": "Yeni takım planlayıcısı oluştur",
+        "drag_here_to_remove": "Atanan kişiyi ve başlangıç ve bitiş tarihlerini kaldırmak için buraya sürükleyin.",
+        "eight_weeks": "8-week",
+        "four_weeks": "4-week",
+        "modify": {
+          "errors": {
+            "fallback": "Bu iş paketi düzenlenemez.",
+            "permission_denied": "Bunu değiştirmek için gerekli izinlere sahip değilsiniz."
+          }
+        },
+        "no_data": "Ekip planlayıcınızı ayarlamak için atanan kişileri ekleyin.",
+        "one_week": "1 hafta",
+        "quick_add": {
+          "empty_state": "İş paketlerini bulmak için arama alanını kullanın ve bunları birine atamak ve başlangıç ve bitiş tarihlerini tanımlamak için planlayıcıya sürükleyin.",
+          "search_placeholder": "Ara..."
+        },
+        "remove_assignee": "Atananı kaldır",
+        "today": "Bugün",
+        "two_weeks": "2 hafta",
+        "unsaved_title": "İsimsiz takım planlayıcısı",
+        "work_week": "Çalışma Haftası"
+      },
+      "text_are_you_sure": "Emin misiniz?",
+      "text_data_lost": "Girilen tüm veriler silinecek.",
+      "text_query_destroy_confirmation": "Seçilen görünümü silmek istediğinizden emin misiniz?",
+      "text_user_wrote": "%{value} demiş ki:",
+      "text_work_packages_destroy_confirmation": "Seçilen çalışma paket(ler) ini silmek istediğinizden emin misiniz?",
+      "time_entry": {
+        "stop": "Dur",
+        "title": "Zaman kaydet",
+        "tracking": "Zaman takibi",
+        "work_package_required": "Önce bir iş paketi seçilmesini gerektirir."
+      },
+      "timer": {
+        "button_stop": "Stop current timer",
+        "start_new_timer": "Start new timer",
+        "timer_already_running": "To start a new timer, you must first stop the current timer:",
+        "timer_already_stopped": "No active timer for this work package, have you stopped it in another window?",
+        "tracking_time": "Tracking time"
+      },
+      "tl_toolbar": {
+        "outlines": "Hiyerarşi düzeyi",
+        "zooms": "Yakınlaştırma düzeyi"
+      },
+      "toolbar": {
+        "filter": "Filtre",
+        "search_query_label": "Kayıtlı görünümleri ara",
+        "settings": {
+          "columns": "Sütunlar",
+          "configure_view": "Configure view",
+          "delete": "Sil",
+          "display_hierarchy": "Hiyerarşiyi göster",
+          "display_sums": "Toplamları görüntüle",
+          "export": "Dışarı aktar",
+          "group_by": "Grupla",
+          "hide_hierarchy": "Hiyerarşiyi gizle",
+          "hide_sums": "Toplamları gizle",
+          "page_settings": "Görünümü yeniden isimlendir",
+          "save": "Kaydet",
+          "save_as": "Farklı Kaydet",
+          "share_calendar": "Subscribe to calendar",
+          "sort_by": "Sıralama şekli",
+          "visibility_settings": "Görünürlük ayarları"
+        },
+        "unselected_title": "İş paketi"
+      },
+      "two_factor_authentication": {
+        "errors": {
+          "aborted": "The authentication was cancelled. Please try again."
+        },
+        "label_two_factor_authentication": "İki faktörlü kimlik doğrulama"
+      },
+      "types": {
+        "attribute_groups": {
+          "confirm_reset": "Uyarı: Form yapılandırmasını sıfırlamak istediğinizden emin misiniz? Bu, nitelikleri varsayılan gruplarına sıfırlar ve TÜM özel alanları devre dışı bırakır.\n",
+          "error_duplicate_group_name": "%{group} ismi birden fazla kullanıldı. Grup isimleri eşsiz olmalıdır.",
+          "error_no_table_configured": "Lütfen %{group} için bir tablo yapılandırın.",
+          "more_information": "Daha fazla bilgi",
+          "nevermind": "Boşver",
+          "reset_title": "Form ayarlarlarını sıfırlayın",
+          "upgrade_to_ee": "Enterprise on-premises edition'a yükseltin",
+          "upgrade_to_ee_text": "Vay! Bu eklentiye ihtiyacınız varsa, siz bir süper profesyonelsiniz! Enterprise sürümü müşterisi olarak biz OpenSource geliştiricilerini destekler misiniz?"
+        },
+        "edit": {
+          "form_configuration": "Form Yapılandırması",
+          "projects": "Projeler",
+          "settings": "Ayarlar"
+        }
+      },
+      "units": {
+        "child_work_packages": {
+          "one": "bir alt iş paketi",
+          "other": "%{count} alt iş paketi"
+        },
+        "day": {
+          "one": "1 gün",
+          "other": "%{count} gün",
+          "zero": "0 gün"
+        },
+        "hour": {
+          "one": "1 saat",
+          "other": "%{count} saat",
+          "zero": "0 s"
+        },
+        "word": {
+          "one": "1 word",
+          "other": "%{count} words"
+        },
+        "workPackage": {
+          "one": "iş paketleri",
+          "other": "iş paketleri"
+        }
+      },
+      "upsale": {
+        "ee_only": "Enterprise sürümü eklentisi"
+      },
+      "views": {
+        "card": "Kartlar",
+        "list": "tablo",
+        "timeline": "Gantt"
+      },
+      "watchers": {
+        "label_add": "Takipçi ekle",
+        "label_discard": "Seçimi gözardı et",
+        "label_error_loading": "Takipçileri yüklerken bir hata oluştu",
+        "label_loading": "takipçiler yükleniyor...",
+        "label_search_watchers": "Takipçi arama",
+        "typeahead_placeholder": "Olası takipçiler için arayın"
+      },
+      "wiki_formatting": {
+        "code": "Satır içi Kod",
+        "deleted": "Silinmiş",
+        "heading1": "Başlık 1",
+        "heading2": "Başlık 2",
+        "heading3": "Başlık 3",
+        "image": "Görsel",
+        "italic": "İtalik",
+        "ordered_list": "Sıralı Liste",
+        "preformatted_text": "Önceden biçimlendirilmiş metin",
+        "quote": "Alıntı",
+        "strong": "Kalın",
+        "underline": "Altı çizili",
+        "unordered_list": "Sırasız liste",
+        "unquote": "Tırnağı kapat",
+        "wiki_link": "Bir Wiki sayfasına bağlantı"
+      },
+      "work_packages": {
+        "baseline": {
+          "addition_label": "Added to view within the comparison time period",
+          "column_incompatible": "This column does not show changes in Baseline mode.",
+          "modification_label": "Modified within the comparison time period",
+          "removal_label": "Removed from view within the comparison time period"
+        },
+        "bulk_actions": {
+          "copy": "Toplu kopyala",
+          "delete": "Toplu silme",
+          "edit": "Toplu düzenle",
+          "move": "Projenin toplu değişimi"
+        },
+        "button_clear": "Temizle",
+        "comment_added": "Yorum başarıyla eklendi.",
+        "comment_send_failed": "Bir hata oluştu. Yorum gönderilemedi.",
+        "comment_updated": "Yorum başarıyla güncelleştirildi.",
+        "confirm_edit_cancel": "İş paketini düzenlemeyi iptal etmek istediğinizden emin misiniz?",
+        "copy": {
+          "title": "İş paketini kopyala"
+        },
+        "create": {
+          "button": "Oluştur",
+          "header": "Yeni %{type}",
+          "header_no_type": "Yeni iş paketi (türü henüz ayarlanmadı)",
+          "header_with_parent": "Yeni %{type} (%{parent_type} #%{id} altında)",
+          "title": "Yeni iş paketi"
+        },
+        "datepicker_modal": {
+          "automatically_scheduled_parent": "Otomatik olarak planlandı. Tarihler ilişkilerden türetilir.",
+          "changing_dates_affects_follow_relations": "Bu tarihlerin değiştirilmesi, ilgili iş paketlerinin tarihlerini etkileyecektir.",
+          "click_on_show_relations_to_open_gantt": "GANTT'ye genel bakış için \"%{button_name}\" üzerine tıklayın.",
+          "ignore_non_working_days": {
+            "title": "Sadece iş günleri"
+          },
+          "manually_scheduled": "Manuel planlama etkinleştirildi, tüm ilişkiler göz ardı edildi.",
+          "show_relations": "İlişkileri göster",
+          "start_date_limited_by_relations": "Kullanılabilir başlangıç ve bitiş tarihleri ilişkilerle sınırlıdır."
+        },
+        "default_queries": {
+          "all_open": "Tüm açık",
+          "assigned_to_me": "Bana atananlar",
+          "created_by_me": "Benim oluşturduklarım",
+          "latest_activity": "En son etkinlik",
+          "manually_sorted": "New manually sorted query",
+          "milestones": "Aşamalar",
+          "overdue": "Süresi geçmiş",
+          "recently_created": "Son oluşturulanlar",
+          "shared_with_me": "Shared with me",
+          "shared_with_users": "Shared with users",
+          "summary": "Özet"
+        },
+        "description_enter_text": "Metin girin",
+        "description_filter": "Filtre",
+        "description_options_hide": "Seçenekleri gizle",
+        "description_options_show": "Seçenekleri göster",
+        "edit_attribute": "%{attribute} - Düzenle",
+        "faulty_query": {
+          "description": "Görüşün hatalı ve işlenemedi.",
+          "title": "İş paketleri yüklenemiyor."
+        },
+        "filters": {
+          "baseline_incompatible": "This filter attribute is not taken into consideration in Baseline mode.",
+          "baseline_warning": "Baseline mode is on but some of your active filters are not included in the comparison.",
+          "title": "İş paketlerini filtrele"
+        },
+        "hierarchy": {
+          "children_collapsed": "Hiyerarşi düzeyi %{level}, gösterilmiyor. Filitreli alt bileşenleri görmek için tıklayın",
+          "children_expanded": "Hiyerarşi düzeyi %{level}, gösteriliyor. Filitreli alt bileşenleri gizlemek için tıklayın",
+          "hide": "Hiyerarşiyi gizle",
+          "leaf": "İş paketi seviyesi: %{level}.",
+          "show": "Hiyerarşiyi göster",
+          "toggle_button": "Hiyerarşi moduna geçiş yapmak için tıklatın."
+        },
+        "inline_create": {
+          "title": "Listeden yeni bir iş paketi eklemek için buraya tıklayınız"
+        },
+        "jump_marks": {
+          "content": "İçeriğe git",
+          "label_content": "Menüyü geçerek içeriği görmek için tıklayın",
+          "label_pagination": "İş paketleri tablosuna geçiş yapmak ve numaralandırma sayfasına gitmek için buraya tıklayın",
+          "pagination": "Tablo numaralandırmaya yönlendir"
+        },
+        "key_value": "%{key}: %{value}",
+        "label_column_multiselect": "Birleştirilmiş aşağı açılan alan: ok tuşlarıyla seçin, seçimi enter ile onaylayın, backspace ile silme",
+        "label_disable_multi_select": "Çoklu seçimi devre dışı bırak",
+        "label_enable_multi_select": "Çoklu seçimi etkinleştir",
+        "label_filter_add": "Filtre ekle",
+        "label_filter_by_text": "Metne göre filtrele",
+        "label_options": "Ayarlar",
+        "limited_results": "Manuel sıralama modunda yalnızca %{count} iş paketi gösterilebilir. Lütfen filtreleyerek sonuçları azaltın veya otomatik sıralamaya geçin.",
+        "message_error_during_bulk_delete": "İş paketleri silinmeye çalışılırken bir hata oluştu.",
+        "message_successful_bulk_delete": "İş paketleri başarıyla silindi.",
+        "message_successful_show_in_fullscreen": "Bu iş paketini tam ekran görebilmek için buraya tıklayın.",
+        "message_view_spent_time": "Bu iş paketi için harcanan zamanı göster",
+        "message_work_package_read_only": "İş paketi bu durum içinde kilitli. Durumu haricinde başka bir özelliği değiştirilemez.",
+        "message_work_package_status_blocked": "İş paketi durumu, kapalı durum ve kapalı sürüm tahsis edildiğinden dolayı yazılamaz.",
+        "no_results": {
+          "description": "Ya hiç iş paketi oluşturulmamış, ya da tüm iş paketeri filtrelenmiş.",
+          "title": "Görüntülecek bir iş paketi bulunmuyor."
+        },
+        "placeholder_filter_by_text": "Konu, açıklama, yorumlar, ...",
+        "placeholders": {
+          "date": "Tarih seçin",
+          "default": "-"
+        },
+        "progress": {
+          "title": "Work estimates and progress"
+        },
+        "properties": {
+          "assignee": "Atanan",
+          "author": "Sahibi",
+          "category": "Kategori",
+          "costObject": "Bütçe",
+          "createdAt": "Oluşturma tarihi",
+          "date": "Tarih",
+          "description": "Açıklama",
+          "dueDate": "Bitiş tarihi",
+          "duration": "Süre",
+          "overallCosts": "Tüm maliyetler",
+          "percentComplete": "% Complete",
+          "percentCompleteAlternative": "Progress",
+          "percentageDone": "Tamamlanan yüzde",
+          "priority": "Öncelik",
+          "projectName": "Proje",
+          "remainingTime": "Kalan çalışma",
+          "remainingWork": "Kalan çalışma",
+          "remainingWorkAlternative": "Kalan saat",
+          "responsible": "Sorumlu",
+          "spentTime": "Harcanan zaman",
+          "spentUnits": "Harcanan birimler",
+          "startDate": "Başlangıç tarihi",
+          "status": "Durum",
+          "storyPoints": "Hikaye Puanları",
+          "subject": "Konu",
+          "subproject": "Alt proje",
+          "title": "Başlık",
+          "type": "Tür",
+          "updatedAt": "Güncelleme tarihi",
+          "version": "Sürüm",
+          "versionName": "Sürüm",
+          "work": "Work",
+          "workAlternative": "Tahmini süre"
+        },
+        "property_groups": {
+          "costs": "Ücretler",
+          "details": "Detaylar",
+          "estimatesAndTime": "Tahminler & zaman",
+          "other": "Diğer",
+          "people": "Kişiler"
+        },
+        "query": {
+          "click_to_edit_query_name": "Bu görünümün başlığını düzenlemek için tıklayın.",
+          "column_names": "Sütunlar",
+          "confirm_edit_cancel": "Bu görünümün adını düzenlemeyi iptal etmek istediğinizden emin misiniz? Başlık önceki değere ayarlanacaktır.",
+          "display_sums": "Toplamları görüntüle",
+          "errors": {
+            "duplicate_query_title": "Bu isimde bir görünüm var. Yinede devam edilsin mi?",
+            "not_found": "Böyle bir görünüm bulunmamakta",
+            "unretrievable_query": "URL’den görünüm alınamadı"
+          },
+          "filters": "Filtreler",
+          "group": "Grupla",
+          "group_by": "Sonuçları grupla",
+          "group_by_disabled_by_hierarchy": "Hiyerarşi durumu etkin olduğundan Gruplama özelliği devre dışı.",
+          "hide_column": "Sütunu gizle",
+          "hierarchy_disabled_by_group_by": "Sonuşlar %{column} sütununa göre gruplandığından, hiyerarşi modu devre dışı.",
+          "insert_columns": "Insert columns",
+          "move_column_left": "Sütunu sola taşı",
+          "move_column_right": "Sütunu sağa taşı",
+          "public_text": "Diğer kullanıcıların görünümünüze erişmesine izin vererek bu görünümü yayınlayın. 'Genel görünümleri yönet' iznine sahip kullanıcılar genel sorguyu değiştirebilir veya kaldırabilir. Bu, iş paketi sonuçlarının görünürlüğünü bu görünümde etkilemez ve izinlerine bağlı olarak, kullanıcılar farklı sonuçlar görebilir.\n",
+          "rename_query_placeholder": "Bu görünümüm adı",
+          "sort_ascending": "Artan sırala",
+          "sort_descending": "Azalan sırala",
+          "star_text": "Bu görünümü favori olarak işaretleyin ve soldaki kaydedilmiş görünümler kenar çubuğuna ekleyin.",
+          "text_no_results": "Eşleşen görünüm bulunamadı."
+        },
+        "scheduling": {
+          "is_parent": "Bu çalışma paketinin tarihleri otomatik olarak çocuklarından çıkarılır. Tarihleri ayarlamak için 'Manuel zamanlama'yı etkinleştirin.",
+          "is_switched_from_manual_to_automatic": "Bu çalışma paketinin tarihlerinin, diğer çalışma paketleriyle olan ilişkiler nedeniyle manuelden otomatik zamanlamaya geçtikten sonra yeniden hesaplanması gerekebilir."
+        },
+        "sharing": {
+          "show_all_users": "Show all users with whom the work package has been shared with",
+          "title": "Share work package",
+          "upsale": {
+            "description": "Share work packages with users who are not members of the project."
+          }
+        },
+        "table": {
+          "configure_button": "İş paketi tablosunu kopyala",
+          "summary": "İş paketi satır tabloları ve iş paketi nitelik sütunları.",
+          "text_inline_edit": "Bu tablodaki çoğu hücre o öznitelikteki satır içi düzenleme işlevselliğini etkinleşirme düğmeleridir.",
+          "text_select_hint": "Seçim kutuları 'ALT' ve ok tuşları ile açılmalıdır.",
+          "text_sort_hint": "Tablo başlığındaki bağlantılardan tablo sütunlarını sırayalabilir, gruplayabilir, yeniden düzenleyebilir, silebilir ya da ekleyebilirsiniz."
+        },
+        "table_configuration": {
+          "button": "Bu iş paketi tablosunu yapılandır",
+          "choose_display_mode": "İş paketlerini farklı olarak göster",
+          "columns_help_text": "Tablo görünümünüze sütun eklemek için yukarıdaki giriş alanını kullanın. Sütunları yeniden sıralamak için sürükleyip bırakabilirsiniz.",
+          "default": "varsayılan",
+          "default_mode": "Düz liste",
+          "display_settings": "Görünüm ayarları",
+          "display_sums_hint": "Tüm toplanabilir özelliklerin toplamlarını, tablonun sonuçlarının altındaki bir satırda görüntüleyin.",
+          "embedded_tab_disabled": "This configuration tab is not available for the embedded view you are editing.",
+          "hierarchy_hint": "Filtrelenen tüm tablo sonuçları atalarıyla artırılacaktır. Hiyerarşiler genişletilebilir ve daraltılabilir.",
+          "hierarchy_mode": "Hiyerarşi",
+          "highlighting": "Vurgulama",
+          "highlighting_mode": {
+            "description": "Rekle vurgula",
+            "entire_row_by": "Tüm satır tarafından",
+            "inline": "Vurgulanan öznitelik(ler)",
+            "inline_all": "Tüm öznitelikler",
+            "none": "Vurgulama",
+            "priority": "Öncelik",
+            "status": "Durum",
+            "type": "Tür"
+          },
+          "modal_title": "İş paketi tablosu yapılandırma",
+          "relation_filters": {
+            "filter_work_packages_by_relation_type": "İş paketlerini ilişki türüne göre filtreleme"
+          },
+          "show_timeline_hint": "Tablonun sağ tarafında etkileşimli bir gantt grafiği göster. Tablo ve gantt tablosu arasındaki bölücüyü sürükleyerek genişliğini değiştirebilirsiniz.",
+          "sorting_mode": {
+            "automatic": "Otomatik",
+            "description": "İş paketlerinizi sıralamak için modu seçin:",
+            "manually": "el ile",
+            "warning": "Otomatik sıralama modunu etkinleştirirken önceki sıralamanızı kaybedeceksiniz."
+          },
+          "upsale": {
+            "attribute_highlighting": "Kitleden sıyrılmak için bazı iş paketlerine mi ihtiyacınız var?",
+            "check_out_link": "Enterprise sürümünü inceleyin.",
+            "relation_columns": "İş paketleri listesindeki ilişkileri görmek ister misiniz?"
+          }
+        },
+        "tabs": {
+          "activity": "Etkinlik",
+          "files": "Dosyalar",
+          "github": "GitHub",
+          "gitlab": "GitLab",
+          "meetings": "Meetings",
+          "overview": "Genel Bakış",
+          "relations": "İlişkiler",
+          "watchers": "Takip Edenler"
+        },
+        "time_relative": {
+          "days": "gün",
+          "months": "ay",
+          "weeks": "hafta"
+        }
+      },
+      "zen_mode": {
+        "button_activate": "Zen modunu etkinleştir",
+        "button_deactivate": "Zen modunu devre dışı bırak"
+      }
+    },
+    "number": {
+      "currency": {
+        "format": {
+          "delimiter": ".",
+          "format": "%n %u",
+          "negative_format": "-%u%n",
+          "precision": 2,
+          "separator": ",",
+          "significant": false,
+          "strip_insignificant_zeros": false,
+          "unit": "₺"
+        }
+      },
+      "format": {
+        "delimiter": null,
+        "precision": 3,
+        "round_mode": "default",
+        "separator": ".",
+        "significant": false,
+        "strip_insignificant_zeros": false
+      },
+      "human": {
+        "decimal_units": {
+          "format": "%n %u",
+          "units": {
+            "billion": "Milyar",
+            "million": "Milyon",
+            "quadrillion": "Katrilyon",
+            "thousand": "Bin",
+            "trillion": "Trilyon",
+            "unit": null
+          }
+        },
+        "format": {
+          "delimiter": null,
+          "precision": 1,
+          "significant": true,
+          "strip_insignificant_zeros": true
+        },
+        "storage_units": {
+          "format": "%n %u",
+          "units": {
+            "byte": {
+              "one": "Bayt",
+              "other": "Byte"
+            },
+            "eb": "EB",
+            "gb": "GB",
+            "kb": "KB",
+            "mb": "MB",
+            "pb": "PB",
+            "tb": "TB",
+            "zb": "ZB"
+          }
+        }
+      },
+      "nth": {
+        "ordinalized": "%{number}.",
+        "ordinals": "."
+      },
+      "percentage": {
+        "format": {
+          "delimiter": null,
+          "format": "%%n"
+        }
+      },
+      "precision": {
+        "format": {
+          "delimiter": "."
+        }
+      }
+    },
+    "time": {
+      "am": "öö",
+      "formats": {
+        "default": "%d/%m/%Y %H:%M",
+        "long": "%B %d, %Y %H:%M",
+        "short": "%d %b %H:%M",
+        "time": "%I:%M %p"
+      },
+      "pm": "ös"
+    }
+  }
+}
