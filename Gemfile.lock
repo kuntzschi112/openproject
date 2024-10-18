@@ -1426,5 +1426,8 @@ DEPENDENCIES
   will_paginate (~> 4.0.0)
   with_advisory_lock (~> 5.1.0)
 
+RUBY VERSION
+   ruby 3.3.5p100
+
 BUNDLED WITH
    2.5.13
