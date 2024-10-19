@@ -33,6 +33,7 @@ source "https://rubygems.org"
 # https://github.com/heroku/heroku-buildpack-ruby/issues/1408#issuecomment-1841596215
 
 ruby "3.3.5"
+gem 'bundler'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'

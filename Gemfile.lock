@@ -1235,6 +1235,7 @@ DEPENDENCIES
   brakeman (~> 6.2.0)
   browser (~> 6.0.0)
   budgets!
+  bundler
   capybara (~> 3.40.0)
   capybara-screenshot (~> 1.0.17)
   capybara_accessible_selectors!
