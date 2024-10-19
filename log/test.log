@@ -1,0 +1,10 @@
+E, [2024-10-19T13:09:57.957418 #70912] ERROR -- : Database connection could not be established: We could not find your database: openproject_test. Available database configurations can be found in config/database.yml.
+
+To resolve this error:
+
+- Did you not create the database, or did you delete it? To create the database, run:
+
+    bin/rails db:create
+
+- Has the database name changed? Verify that config/database.yml contains the correct database name.
+. Falling back to NullDB.

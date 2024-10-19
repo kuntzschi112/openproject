@@ -26,3 +26,68 @@ D, [2024-10-19T12:47:52.096997 #67668] DEBUG -- : Enabling Rack::Timeout (servic
 D, [2024-10-19T12:47:52.692221 #67668] DEBUG -- : incoming webhook registered: github
 D, [2024-10-19T12:47:52.696553 #67668] DEBUG -- : incoming webhook registered: gitlab
 D, [2024-10-19T12:48:03.635910 #67668] DEBUG -- : [i18n-js] Watching ["config/i18n.yml", "config/locales"]
+I, [2024-10-19T12:48:18.998564 #67668]  INFO -- : Initializing websocket
+I, [2024-10-19T12:48:44.833079 #68124]  INFO -- : Started GET "/" for 127.0.0.1 at 2024-10-19 12:48:44 +0200
+F, [2024-10-19T12:48:44.868750 #68124] FATAL -- :   
+ActiveRecord::NoDatabaseError (We could not find your database: openproject_development. Available database configurations can be found in config/database.yml.
+
+To resolve this error:
+
+- Did you not create the database, or did you delete it? To create the database, run:
+
+    bin/rails db:create
+
+- Has the database name changed? Verify that config/database.yml contains the correct database name.
+):
+  
+config/initializers/enforce_isolation_level.rb:36:in `new_connection'
+E, [2024-10-19T12:49:30.411678 #68334] ERROR -- : Database connection could not be established: We could not find your database: openproject_development. Available database configurations can be found in config/database.yml.
+
+To resolve this error:
+
+- Did you not create the database, or did you delete it? To create the database, run:
+
+    bin/rails db:create
+
+- Has the database name changed? Verify that config/database.yml contains the correct database name.
+. Falling back to NullDB.
+D, [2024-10-19T12:49:30.761274 #68334] DEBUG -- : Enabling Rack::Timeout (service=0s wait=10s)
+D, [2024-10-19T12:49:31.175333 #68334] DEBUG -- : incoming webhook registered: github
+D, [2024-10-19T12:49:31.180408 #68334] DEBUG -- : incoming webhook registered: gitlab
+D, [2024-10-19T12:49:40.567864 #68334] DEBUG -- : [i18n-js] Watching ["config/i18n.yml", "config/locales"]
+E, [2024-10-19T12:55:38.464239 #68955] ERROR -- : Database connection could not be established: We could not find your database: openproject_development. Available database configurations can be found in config/database.yml.
+
+To resolve this error:
+
+- Did you not create the database, or did you delete it? To create the database, run:
+
+    bin/rails db:create
+
+- Has the database name changed? Verify that config/database.yml contains the correct database name.
+. Falling back to NullDB.
+D, [2024-10-19T12:55:38.807719 #68955] DEBUG -- : Enabling Rack::Timeout (service=0s wait=10s)
+D, [2024-10-19T12:55:39.198131 #68955] DEBUG -- : incoming webhook registered: github
+D, [2024-10-19T12:55:39.202366 #68955] DEBUG -- : incoming webhook registered: gitlab
+D, [2024-10-19T12:55:48.635203 #68955] DEBUG -- : [i18n-js] Watching ["config/i18n.yml", "config/locales"]
+E, [2024-10-19T13:01:31.209848 #69797] ERROR -- : Database connection could not be established: We could not find your database: openproject_development. Available database configurations can be found in config/database.yml.
+
+To resolve this error:
+
+- Did you not create the database, or did you delete it? To create the database, run:
+
+    bin/rails db:create
+
+- Has the database name changed? Verify that config/database.yml contains the correct database name.
+. Falling back to NullDB.
+D, [2024-10-19T13:01:31.609756 #69797] DEBUG -- : Enabling Rack::Timeout (service=0s wait=10s)
+D, [2024-10-19T13:01:31.968654 #69797] DEBUG -- : incoming webhook registered: github
+D, [2024-10-19T13:01:31.972266 #69797] DEBUG -- : incoming webhook registered: gitlab
+D, [2024-10-19T13:01:41.222786 #69797] DEBUG -- : [i18n-js] Watching ["config/i18n.yml", "config/locales"]
+D, [2024-10-19T13:03:52.931621 #70061] DEBUG -- : Enabling Rack::Timeout (service=0s wait=10s)
+D, [2024-10-19T13:03:53.262193 #70061] DEBUG -- : incoming webhook registered: github
+D, [2024-10-19T13:03:53.265866 #70061] DEBUG -- : incoming webhook registered: gitlab
+D, [2024-10-19T13:04:02.127691 #70061] DEBUG -- : [i18n-js] Watching ["config/i18n.yml", "config/locales"]
+D, [2024-10-19T13:06:35.738177 #70456] DEBUG -- : Enabling Rack::Timeout (service=0s wait=10s)
+D, [2024-10-19T13:06:36.221971 #70456] DEBUG -- : incoming webhook registered: github
+D, [2024-10-19T13:06:36.225354 #70456] DEBUG -- : incoming webhook registered: gitlab
+D, [2024-10-19T13:06:44.924747 #70456] DEBUG -- : [i18n-js] Watching ["config/i18n.yml", "config/locales"]
